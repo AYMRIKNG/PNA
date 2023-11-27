@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="src/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="src/competence.css"/>
+     <script src="https://unpkg.com/gsap@3.9.2/dist/gsap.min.js"></script>
+     <script src="https://unpkg.com/scrolltrigger-classes@1.0.2/dist/ScrollTrigger.min.js"></script>
+     <script src="./src/js/competence.js">
+    </script>
+</head>
+<body>
+    <nav>
+        <ul class="main-menu show">
+            <li>LOGO</li>
+            <li>PORTFOLIO</li>
+            <li id="toggle-menu">MENU</li>
+        </ul>
+        <ul class="sub-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">WORK</a></li>
+            <li><a href="./CV Ngampolo Aymerick (1).pdf" target="_blank">CV</a></li>
+            <li><a>VEILLE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li id="untoggle-menu">X</li>
+        </ul>
+        <script src="./src/js/nav.js" defer></script>
+    </nav>
+    <section >
+          <img src="/down-filled-triangular-arrow.png" height="20rem" width="20rem" srcset="">
+
+          <div class="links" id="comp-section">
+            <div class="link" id="1">
+                <a href="#" data-image="1">PHOTOSHOP</a>
+            </div>
+            <div class="link" id="2">
+                <a href="#" data-image="2">JAVASCRIPT</a>
+            </div>
+            <div class="link" id="3">
+                <a href="#" data-image="3">REACT JS</a>
+            </div>
+            <div class="link" id="4">
+                <a href="#" data-image="4">JAVASCRIPT</a>
+            </div>
+            <div class="link" id="5">
+                <a href="#" data-image="5">GSAP</a>
+            </div>
+            <div class="link" id="6">
+                <a href="#" data-image="6">CINEMA4D</a>
+            </div>
+            <div class="link" id="7">
+                <a href="#" data-image="7">FIGMA</a>
+            </div>
+            <div class="link" id="8">
+                <a href="#" data-image="8">HTML/CSS</a>
+            </div>
+            <div class="link" id="9">
+                <a href="#" data-image="9">JAVA</a>
+            </div>
+            <div class="link" id="10">
+                <a href="#" data-image="10">BLENDER</a>
+            </div>
+            <div class="link" id="11">
+                <a href="#" data-image="11">PHYTON</a>
+            </div>
+            <div class="link" id="12">
+                <a href="#" data-image="12">SWIFT</a>
+            </div>
+            <div class="link" id="13">
+                <a href="#" data-image="13"></a>
+            </div>
+          </div>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+          <script>
+            const linksContainer = document.querySelector(".links");
+            const compSection = document.getElementById("comp-section");
+            let currentScroll = 0;
+            let targetScroll = 0;
+            const ease = 0.1;
+            let isMouseOvercompSection = false;
+        
+            compSection.addEventListener("mouseenter", () => {
+                isMouseOvercompSection = true;
+                animate();
+            });
+        
+            compSection.addEventListener("mouseleave", () => {
+                isMouseOvercompSection = false;
+            });
+        
+            document.addEventListener("mousemove", (e) => {
+                const extraHeight = linksContainer.offsetHeight - window.innerHeight;
+                targetScroll = (e.clientY / window.innerHeight) * -extraHeight;
+            });
+        
+            function lerp(start, end, t) {
+                return start * (1 - t) + end * t;
+            }
+        
+            function animate() {
+                if (isMouseOvercompSection) {
+                    currentScroll = lerp(currentScroll, targetScroll, ease);
+                    linksContainer.style.transform = `translateY(${currentScroll}px)`;
+                    requestAnimationFrame(animate);
+                } else {
+                    // Réinitialiser la position lorsque la souris quitte la zone compSection
+                    currentScroll = 0;
+                    linksContainer.style.transform = `translateY(${currentScroll}px)`;
+                }
+            }
+        </script>
+        
+        
+        
+          
+          
+
+           <div class="cine">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consequatur nostrum soluta, labore quae earum porro repudiandae perspiciatis aspernatur quas eveniet ipsam ipsa asperiores nesciunt quibusdam quo, pariatur dignissimos magnam.
+            </p>
+           </div>
+
+           
+          
+
+    </section>
+</body>
+</html>

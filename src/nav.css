@@ -1,0 +1,53 @@
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+   height: 50px;
+   width: 98rem;
+   overflow: hidden;
+ 
+  }
+  nav ul {
+      display: flex;
+      justify-content: space-between;
+      width: 90rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  nav ul li{
+      list-style: none;
+      transform: none;
+      color: white;
+      transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  nav ul li a{
+      color: white;
+      text-decoration: none;
+      cursor: crosshair;
+  }
+  
+  .main-menu{
+      transform: translateY(-35px);
+      opacity: 0;
+  }
+  .sub-menu{
+      transform: translateY(35px);
+      opacity: 0;
+  
+  }
+  
+  .show {
+      transform: translateY(0);
+      transition: transform 2s cubic-bezier(0.19, 1, 0.22, 1), opacity 2s ease-in-out;
+      opacity: 1;
+  }
+  
+  
+  
+  nav ul li:hover{
+      transform: scale(1.2);
+      cursor: crosshair;
+  }

@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Inder'; /* Le nom que vous voulez donner à la police */
+    src: url('./font/Inder-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
+
+body{
+    margin: 0;
+    padding: 0;
+ overflow: hidden;
+    background-color: black;
+    }
+
+    section{
+        background-color: rgb(0, 0, 0);
+        height: 43rem;
+        position: absolute;
+        width: 100%;
+        top: 4rem;
+        
+    }
+
+    section img{
+        position: absolute;
+        left: 47rem;
+        top: 40rem;
+        animation: twist 1.7s linear infinite ;
+        transition: animation ease;
+
+    }
+
+    @keyframes twist {
+        0%{
+            transform: translateY(0rem);
+        }
+        50%{
+            transform: translateY(0.5rem);
+        }
+        100%{
+            transform: translateY(0rem);
+        }
+    }    
+    .links{
+        padding: 0rem 8rem;
+        margin-top: 13rem;
+        height: 240vh;
+        width: 30rem;
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        transition: transform 0.5s ease;
+    }
+    .link a{
+        color: white;
+        text-decoration: none;
+        font-size: 6rem;
+        font-family: 'Inder',sans-serif;
+    
+    }
+    .link a.active {
+        color: red;
+        filter: blur(1px);
+    }
+  
+    nav{
+        background-color: black;
+    }
+    .link{
+        transition: transform 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    }
+ .link:hover{
+    transform: translateX(2rem) scale(1.05);
+ }
+
+ .cine{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../Adobe-Photoshop-CC-2014-15-Released-for-Download-447517-2.jpg);
+    height: 30rem;
+    width: 40rem;
+    position: absolute;
+    top: 6rem;
+    left: 50rem;
+ }
