@@ -12,41 +12,133 @@ body{
     font-family: 'Ice'; /* Le nom que vous voulez donner à la police */
     src: url('/Iceland-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
-.rem{
-    display: none;
-    position: absolute;
-    z-index: 1;
-    top: 11.5rem;
-    left: 25.2rem;
+@font-face {
+    font-family: 'Archi'; /* Le nom que vous voulez donner à la police */
+    src: url('/ArchivoBlack-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
 
+section{
+    color: white;
+    padding: 4%;
+    height: 45rem;
+}
+.about{
+    padding: 4% 15%;
+    height: 45rem; 
+}
+span{
+    color: #C02C2C;
+}
+h1,h4{
+    font-family: 'Archi';
+}
+h2{font-family: 'Inder';
+    font-size: 1.25rem;
+ }
+.gray{color: rgb(71, 71, 71);}
+h2,h4,h3{
+    position: relative;
+z-index: 2;
 }
 h1{
-    color: white;
-    font-family: 'Ice',sans-serif;
-    font-size: 20rem;
+    font-size: 15.9rem;
     position: absolute;
+    left: 0;
+    
+    animation: wedont 4s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    top: -9rem;
     z-index: 1;
-    top: -4rem;
-    left: 29.5rem;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.55) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
 }
-h2{
-    font-family: 'Inder',sans-serif;
-    color: white;
+.rem{
     position: absolute;
-    z-index: 1;
-    top: 28rem;
-    left: 39rem;
+    top: 22%;
+    left: 33%;
+    z-index: 10;
+    filter: drop-shadow(0 0 20px black);
 }
-.arrow{
-    top: 35rem;
-    left: 46rem;
-    font-size: 4rem;
+.loc{
+    top: -3rem;
+   
 }
-.fff{
-   background-image: radial-gradient(circle, rgba(0,0,0,0.8318977249102766) 0%, rgb(0, 0, 0) 65%),url(/src/pexels-markus-spiske-177598.jpg);
-   background-size: 100%;
-    height: 100vh;
+.txt{
+    top: 14rem;
+    width: 25rem;
 }
-.f{
-    height: 200rem;
+.txta{
+    top: 21rem;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.name{
+    top: 13rem;
+    left: 65rem;
+    font-size: 2rem;
+    z-index: 3;
+}
+
+h1:nth-child(1){
+    animation: wedont 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+h1:nth-child(2){
+    animation: wedont 1s 1.3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+h1:nth-child(3){
+ transform: translateY(1rem);
+ animation: wedont 2s 0.8s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+h1:nth-child(4){
+transform: translateY(0.25rem);
+animation: wedont 4s 0.1 infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+h1:nth-child(5){
+    transform: translateY(0.5rem);
+    animation: wedont 2s 1.7s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    h1:nth-child(6){
+        transform: translateY(1.25rem);
+        animation: wedont 1s 0.2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        h1:nth-child(7){
+            transform: translateY(1.5rem);
+            animation: wedont 2s 0.3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+            h1:nth-child(8){
+                transform: translateY(1.75rem);
+                animation: wedont 3s 1s infinite  cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+                }
+                h1:nth-child(9){
+                    transform: translateY(2rem);
+                    animation: wedont 4s 1.5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                    }
+.moi{
+    width: 48rem;
+}
+.me{
+    filter: saturate(0%) brightness(10%) ;
+    position: relative;
+    top: -23rem;
+    left: 45rem;
+}
+
+@keyframes wedont {
+    0%{
+      opacity: 1;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 1;
+    }
 }
