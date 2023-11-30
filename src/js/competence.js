@@ -8,10 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
             // Retirer la classe "active" de tous les liens
             links.forEach(link => {
                 link.classList.remove('active');
+                document.querySelector(".cine").style.animation = "fadeIn 2s forwards ease"; 
             });
 
             // Ajouter la classe "active" au lien cliqué
             this.classList.add('active');
+            document.querySelector(".cine").style.animation = "none"; 
         });
     });
 });
@@ -38,7 +40,7 @@ const test = [
     "darkblue",
     "orange",
     "pink",
-    "white",
+    "chocolate",
     "brown",
     "yellow",
     "purple",
@@ -50,9 +52,55 @@ const test = [
 
 ];
 
+const expe = [
+    null, 
+    "4 ans",
+    "2 ans",
+    "3 ans",
+    "1 ans",
+    "5 ans",
+    "6 ans",
+    "1 ans",
+    "2 ans",
+    "3 ans",
+    "9 ans",
+    "5 ans",
+    "1 ans",
+    "2 ans",
+
+];
+const nombrep = [
+    null, 
+    "4",
+    "5",
+    "2",
+    "1",
+    "3",
+    "2",
+    "6",
+    "8",
+    "4",
+    "7",
+    "1",
+    "2",
+    "9",
+
+];
+
+
 function changeImg(id) {
     const color = test[id];
+    const experience = expe[id];
+    const nombreprojet = nombrep[id];
     if (color) {
-        document.querySelector(".cine").style.background = color;
+        const cineElement = document.querySelector(".cine");
+       
+        cineElement.style.background = color;
+        cineElement.style.color = "white" ;
+
+        document.getElementById("xp").innerHTML = experience ;
+        document.getElementById("np").innerHTML = nombreprojet ;
+
     }
+
 }

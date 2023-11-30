@@ -29,7 +29,7 @@
         <script src="./src/js/nav.js" defer></script>
     </nav>
     <section >
-          <img src="/down-filled-triangular-arrow.png" height="20rem" width="20rem" srcset="">
+          <img id="arro" src="/down-filled-triangular-arrow.png" height="20rem" width="20rem" srcset="">
 
           <div class="links" id="comp-section">
             <div class="link" onClick="changeImg(1)" id="1">
@@ -84,11 +84,13 @@
         
             compSection.addEventListener("mouseenter", () => {
                 isMouseOvercompSection = true;
+                document.getElementById("arro").style.opacity = "0";
                 animate();
             });
         
             compSection.addEventListener("mouseleave", () => {
                 isMouseOvercompSection = false;
+                document.getElementById("arro").style.opacity = "1";
             });
         
             document.addEventListener("mousemove", (e) => {
@@ -119,9 +121,8 @@
           
 
            <div class="cine">
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates consequatur nostrum soluta, labore quae earum porro repudiandae perspiciatis aspernatur quas eveniet ipsam ipsa asperiores nesciunt quibusdam quo, pariatur dignissimos magnam.
-            </p>
+           <h1>ANNEE<br>D'EXPERIENCE : <span id="xp"> </span></h1>
+           <h1>NOMBRE<br>DE PROJET : <span id="np"> </span></h1>
            </div>
 
            
