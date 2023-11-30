@@ -59,9 +59,27 @@
         </ul>
         <script src="./src/js/nav.js" defer></script>
     </nav>
-     <section>
+    <section class="intro">
         <img class="rem" src="/src/transparent-infinity-symbol-colorful-glossy-3d-infinity-symbol-on-black-backg656161f35930e0.1418746317008808833653.png" height="" width="500rem" alt="" srcset="">
-        <h2 class="loc" id="loc">PARIS FRANCE 17:35  |  REMOTE</h2>
+    </section>
+     <section>
+        
+        <h2 class="loc" id="loc">PARIS FRANCE 17:35 NOV   |   REMOTE</h2>
+        <script>
+            function updateDateTime() {
+              var locElement = document.getElementById('loc');
+              var currentDate = new Date();
+              var currentHour = currentDate.getHours();
+              var currentMinute = currentDate.getMinutes();
+              var currentMonth = currentDate.toLocaleString('default', { month: 'short' });
+              var formattedTime = currentHour + ':' + (currentMinute < 10 ? '0' : '') + currentMinute;
+              var formattedDateTime = formattedTime + ' ' + currentMonth;
+              locElement.textContent = 'PARIS FRANCE ' + formattedDateTime + '   |   REMOTE';
+            }
+            updateDateTime();
+            setInterval(updateDateTime, 20000);
+          </script>
+     <div class="class">
         <h1>AYMERICK</h1>
         <h1 >AYMERICK</h1>
         <h1 >AYMERICK</h1>
@@ -72,6 +90,7 @@
         <h1 >AYMERICK</h1>
         <h1 >AYMERICK</h1>
         <h1 >AYMERICK</h1>
+     </div>
         <h4 class="name">NGAMPOLO</h4>
     <div class="space">
         <div>
