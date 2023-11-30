@@ -5,7 +5,7 @@
 body{
     background-color: black;
     overflow-x: hidden;
-   
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -30,11 +30,12 @@ section{
 }
 
 .first{
-    padding: 0% 5%;
+    padding: 0% 15%;
     text-align: center;
 }
 .imgfirst{
    padding: 0% 13.5%; margin-top: 1rem;
+   margin-bottom: 10rem;
    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .imgfirst:hover{
@@ -61,14 +62,33 @@ table{
   
 }
 
-.left{
-    text-align: end;
-    margin-left: 54%;
-}
 .pres div{
-    margin-top: 5rem;
+
 }
+
+.imga{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(/pic04.png);
+    transition-delay: 1;
+}
+.imgb{
+    position: relative;
+    top: -15rem;
+    left: -50rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background: url(/pic04.png);
+}
+
 td:hover{
+    
     transform: scale(1.5);
     z-index: 2; transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
@@ -93,4 +113,32 @@ td{
     transform: scale(.5);
     position: relative;
     
+}
+
+
+.right {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.right-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.left{
+    text-align: end;
+    margin-left: 54%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.left-visible{
+    text-align: end;
+    margin-left: 54%;
+    opacity: 1;
+    transform: translateY(0);
 }
