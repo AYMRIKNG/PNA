@@ -107,9 +107,10 @@
                     currentScroll = lerp(currentScroll, targetScroll, ease);
                     linksContainer.style.transform = `translateY(${currentScroll}px)`;
                     requestAnimationFrame(animate);
-                } else {
+                } 
+                else {
                     // Réinitialiser la position lorsque la souris quitte la zone compSection
-                    currentScroll = 0;
+                    currentScroll =  (e.clientY / window.innerHeight) * -extraHeight;
                     linksContainer.style.transform = `translateY(${currentScroll}px)`;
                 }
             }

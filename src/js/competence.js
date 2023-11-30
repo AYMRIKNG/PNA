@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
             // Retirer la classe "active" de tous les liens
             links.forEach(link => {
                 link.classList.remove('active');
-                document.querySelector(".cine").style.animation = "fadeIn 2s forwards ease"; 
+  
             });
 
             // Ajouter la classe "active" au lien cliqué
             this.classList.add('active');
-            document.querySelector(".cine").style.animation = "none"; 
+           
         });
     });
 });
