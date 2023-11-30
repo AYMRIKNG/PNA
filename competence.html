@@ -32,44 +32,44 @@
           <img src="/down-filled-triangular-arrow.png" height="20rem" width="20rem" srcset="">
 
           <div class="links" id="comp-section">
-            <div class="link" id="1">
+            <div class="link" onClick="changeImg(1)" id="1">
                 <a href="#" data-image="1">PHOTOSHOP</a>
             </div>
-            <div class="link" id="2">
+            <div class="link" onClick="changeImg(2)" onClick="changeImg" id="2">
                 <a href="#" data-image="2">JAVASCRIPT</a>
             </div>
-            <div class="link" id="3">
+            <div class="link" onClick="changeImg(3)" id="3">
                 <a href="#" data-image="3">REACT JS</a>
             </div>
-            <div class="link" id="4">
+            <div class="link" onClick="changeImg(4)" id="4">
                 <a href="#" data-image="4">JAVASCRIPT</a>
             </div>
-            <div class="link" id="5">
+            <div class="link" onClick="changeImg(5)" id="5">
                 <a href="#" data-image="5">GSAP</a>
             </div>
-            <div class="link" id="6">
+            <div class="link" onClick="changeImg(6)" id="6">
                 <a href="#" data-image="6">CINEMA4D</a>
             </div>
-            <div class="link" id="7">
+            <div class="link" onClick="changeImg(7)" id="7">
                 <a href="#" data-image="7">FIGMA</a>
             </div>
-            <div class="link" id="8">
+            <div class="link" onClick="changeImg(8)" id="8">
                 <a href="#" data-image="8">HTML/CSS</a>
             </div>
-            <div class="link" id="9">
+            <div class="link" onClick="changeImg(9)" id="9">
                 <a href="#" data-image="9">JAVA</a>
             </div>
-            <div class="link" id="10">
+            <div class="link" onClick="changeImg(10)" id="10">
                 <a href="#" data-image="10">BLENDER</a>
             </div>
-            <div class="link" id="11">
+            <div class="link" onClick="changeImg(11)" id="11">
                 <a href="#" data-image="11">PHYTON</a>
             </div>
-            <div class="link" id="12">
+            <div class="link" onClick="changeImg(12)" id="12">
                 <a href="#" data-image="12">SWIFT</a>
             </div>
-            <div class="link" id="13">
-                <a href="#" data-image="13"></a>
+            <div class="link" onClick="changeImg(13)" id="13">
+                <a href="#" data-image="13">GITHUB</a>
             </div>
           </div>
 
@@ -97,7 +97,7 @@
             });
         
             function lerp(start, end, t) {
-                return start * (1 - t) + end * t;
+                return start * (1.02 - t) + end * t;
             }
         
             function animate() {

@@ -15,3 +15,44 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+let emp = [];
+emp[1] = "/src/";
+emp[2] = "/src/";
+emp[3] = "/src/";
+emp[4] = "/src/";
+emp[5] = "/src/";
+emp[6] = "/src/";
+emp[7] = "/src/";
+emp[8] = "/src/";
+emp[9] = "/src/";
+emp[10] = "/src/";
+emp[11] = "/src/";
+emp[12] = "/src/";
+emp[13] = "/src/";
+
+const test = [
+    null, 
+    "red",
+    "darkblue",
+    "orange",
+    "pink",
+    "white",
+    "brown",
+    "yellow",
+    "purple",
+    "gray",
+    "green",
+    "blue",
+    "lightgreen",
+    "lightblue",
+
+];
+
+function changeImg(id) {
+    const color = test[id];
+    if (color) {
+        document.querySelector(".cine").style.background = color;
+    }
+}
