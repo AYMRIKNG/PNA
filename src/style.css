@@ -20,14 +20,22 @@ body{
 section{
     color: white;
     padding: 4%;
-    height: 45rem;
+   
 }
 .about{
     padding: 4% 15%;
     height: 45rem; 
+    margin-top: 15rem;
+    line-height: 1.8rem;
 }
 span{
     color: #C02C2C;
+}
+.redf{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("/shadergradient.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33rem;
 }
 h1,h4{
     font-family: 'Archi';
@@ -49,7 +57,7 @@ h1{
     
     top: -9rem;
     z-index: 1;
-    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.55) 100%);
+    background: linear-gradient(270deg, #ff0000 0%, rgba(225, 19, 19, 0.958) 50%, rgba(255, 0, 0, 0.55) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
@@ -92,7 +100,7 @@ background-clip: text;
     left: 0;
     height: 45rem;
     width: 100%;
-    background: rgb(0, 0, 0);
+    display: none;
     z-index: 54;
 }
 .space{
@@ -106,7 +114,16 @@ background-clip: text;
     font-size: 2rem;
     z-index: 3;
 }
-
+.rett{
+    background-position: top;
+}
+.fun{
+    height: 50rem;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    overflow: hidden;
+}
 h1:nth-child(1){
     animation: wedont 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -144,6 +161,7 @@ h1:nth-child(5){
                     }
 .moi{
     width: 48rem;
+    font-size: 1.2rem;
 }
 .me{
     filter: saturate(0%) brightness(20%) ;

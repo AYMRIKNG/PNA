@@ -36,19 +36,19 @@ emp[13] = "/src/";
 
 const test = [
     null, 
-    "red",
-    "darkblue",
-    "orange",
-    "pink",
-    "chocolate",
-    "brown",
-    "yellow",
-    "purple",
-    "gray",
-    "green",
-    "blue",
-    "lightgreen",
-    "lightblue",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/ps.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/js.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/r.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/js.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/hc.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/c4.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/f.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/hc.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/j.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/b.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/p.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/sw.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/g.png)",
 
 ];
 
@@ -95,7 +95,7 @@ function changeImg(id) {
     if (color) {
         const cineElement = document.querySelector(".cine");
        
-        cineElement.style.background = color;
+        cineElement.style.backgroundImage = color;
         cineElement.style.color = "white" ;
 
         document.getElementById("xp").innerHTML = experience ;

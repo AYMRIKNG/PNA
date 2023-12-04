@@ -11,13 +11,15 @@ body{
     }
 
     section{
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
         height: 43rem;
         position: absolute;
         width: 100%;
         top: 4rem;
         
     }
+
+  
 
     section img{
         position: absolute;
@@ -47,12 +49,12 @@ body{
         margin-top: 13rem;
         height: 240vh;
         width: 30rem;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
         overflow: hidden;
         transition: transform 0.5s ease;
         
     }
-  
+  /*
     .link:nth-child(5){
         opacity: 0;
         animation: apparition 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
@@ -82,7 +84,7 @@ body{
             opacity: 1;
         }
     }
-
+*/
     .link a{
         color: white;
         text-decoration: none;
@@ -105,19 +107,20 @@ body{
     }
  .link:hover{
     transform: translateX(2rem) scale(1.05);
+   
  }
 
  .cine{
     height: 16rem;
     color: black;
     padding: 11rem;
-    width: 24rem;
+    width: 20rem;
     position: absolute;
-    top: 2rem;
+    top: 0.8rem;
     font-size: 1.4em;
-    background: none;
+    background-image:none;
     left: 50rem;
-    transition: background 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;
+    transition: background-image 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;
  }
  .cine h1{
     width: 22rem;
@@ -133,4 +136,16 @@ body{
         transform: scale(1);
         opacity: 1;
     }
+ }
+
+ .redf{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("/shadergradient.gif");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    position: absolute;
+    z-index: -1;
+    margin: 5%;
+    width: 90%;
+    top: -4rem;
+    height: 38rem;
  }
