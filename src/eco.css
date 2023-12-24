@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Inder'; /* Le nom que vous voulez donner à la police */
+    src: url('./font/Inder-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    letter-spacing: 1rem;
+    margin: 0;
+}
+
+h1,h2,p{
+    color: white;
+    
+}
+p{
+    margin-top: 2rem;
+}
+section{
+    margin-top: 6rem; font-family: 'Inder',sans-serif;
+}
+
+.first{
+    padding: 0% 15%;
+    text-align: center;
+}
+.imgfirst{
+   padding: 0% 13.5%; margin-top: 1rem;
+   margin-bottom: 10rem;
+   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.imgfirst:hover{
+    transform: scale(1.05);
+}
+table{
+    padding: 0% 10%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.rouge{
+    color: rgb(195, 46, 46);
+}
+.pres{
+    
+    margin: 0% 10%;
+}
+.pres h2{
+    width: 35rem;
+   
+}
+.pres p{
+    width: 35rem;
+  
+}
+
+.pres div{
+
+}
+
+.imga{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    
+    transform: rotate(-5deg);
+    background: url(/eco/Eco/3.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 1;
+}
+.imgb{
+    position: relative;
+    top: -15rem;
+    left: -45rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background: url(/eco/Eco/2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imgc{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(/eco/Eco/mapping\ -\ liste.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 1;
+}
+.imgd{
+    position: relative;
+    top: -15rem;
+    left: -45rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background: url(/eco/Eco/mapping\ -\ liste\ valeurs.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}.imge{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(/eco/Eco/mapping\ -\ nouveau.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 1;
+}
+.imgf{
+    position: relative;
+    top: -15rem;
+    left: -45rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background: url(/eco/Eco/departement.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}.imgg{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(/eco/Eco/départements.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 1;
+}
+.imgh{
+    position: relative;
+    top: -15rem;
+    left: -45rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background: url(/eco/Eco/gestion\ des\ utilisateurs.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}.imgi{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(/eco/Eco/attribuer\ revoquer.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-delay: 1;
+}
+
+
+td:hover{
+    
+    transform: scale(1.5);
+    z-index: 2; transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.middle:hover {
+    
+    z-index: 2;
+    position: relative;
+}
+.lefty:hover{
+  transform: translateX(5rem);
+  z-index: 2; 
+  position: relative;
+}
+.righty:hover{
+    transform: translateX(-5rem);
+    
+    position: relative;
+}
+td{
+    transform: scale(.5);
+    position: relative;
+    
+}
+
+
+.right {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 1s;
+}
+
+.right-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.left{
+    text-align: end;
+    margin-left: 54%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s, transform 1s;
+}
+
+.left-visible{
+    text-align: end;
+    margin-left: 54%;
+    opacity: 1;
+    transform: translateY(0);
+}

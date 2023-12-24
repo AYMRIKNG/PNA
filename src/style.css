@@ -16,6 +16,10 @@ body{
     font-family: 'Archi'; /* Le nom que vous voulez donner à la police */
     src: url('/ArchivoBlack-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
+@font-face {
+    font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
+    src: url('/Lostar.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
 
 section{
     color: white;

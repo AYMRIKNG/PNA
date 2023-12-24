@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+
+.hour,
+.minute,
+.second {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #333;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+
+.hour {
+    background: #333;
+    height: 6px;
+}
+
+.numbers {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 12px;
+    color: #333;
+}
+
+span {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
