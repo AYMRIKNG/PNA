@@ -3,6 +3,7 @@ body{
     overflow-x: hidden;
 }
 
+
 @font-face {
     font-family: 'Inder'; /* Le nom que vous voulez donner à la police */
     src: url('./font/Inder-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
@@ -18,12 +19,12 @@ body{
 }
 @font-face {
     font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
-    src: url('/Lostar.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('/Great\ Warrior.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 
 section{
     color: white;
-    padding: 4%;
+
    
 }
 .about{
@@ -39,34 +40,38 @@ span{
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("/shadergradient.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 33rem;
+    padding: 1% 4%;
+    height: 36rem;
 }
 h1,h4{
     font-family: 'Archi';
 }
 h2{font-family: 'Inder';
-    font-size: 1.25rem;
+  
  }
 .gray{color: rgb(71, 71, 71);}
-h2,h4,h3{
+h3{
     position: relative;
 z-index: 2;
 }
 h1{
-    font-size: 15.9rem;
-    position: absolute;
-    left: 0;
-    opacity: 0;
-    animation: wedont 4s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    font-family: 'Lostar';
+    font-size: 14.6vw;
+    margin: 0;
+    transform: translateX(-7.5rem);
+    padding: 0;
+  color: #C02C2C;
+    width: 100%;
+    height: 100%;
     
-    top: -9rem;
-    z-index: 1;
-    background: linear-gradient(270deg, #ff0000 0%, rgba(225, 19, 19, 0.958) 50%, rgba(255, 0, 0, 0.55) 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
-
+}
+.class{
+   background-color: transparent;
+    height: 18vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .rem{
     position: absolute;
@@ -88,7 +93,7 @@ background-clip: text;
     }
 }
 .loc{
-    top: -3rem;
+  
     text-transform: uppercase;
 }
 .txt{
@@ -115,8 +120,12 @@ background-clip: text;
 .name{
     top: 13rem;
     left: 65rem;
-    font-size: 2rem;
+    font-size: 3vw;
     z-index: 3;
+  
+    text-align: end;
+    margin: 0;
+    padding: 0;
 }
 .rett{
     background-position: top;
@@ -128,41 +137,7 @@ background-clip: text;
     width: 100%;
     overflow: hidden;
 }
-h1:nth-child(1){
-    animation: wedont 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-h1:nth-child(2){
-    animation: wedont 1s 1.3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-h1:nth-child(3){
- transform: translateY(1rem);
- animation: wedont 2s 0.8s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-h1:nth-child(4){
-transform: translateY(0.25rem);
-animation: wedont 4s 0.1 infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-h1:nth-child(5){
-    transform: translateY(0.5rem);
-    animation: wedont 2s 1.7s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-    h1:nth-child(6){
-        transform: translateY(1.25rem);
-        animation: wedont 1s 0.2s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-        h1:nth-child(7){
-            transform: translateY(1.5rem);
-            animation: wedont 2s 0.3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            }
-            h1:nth-child(8){
-                transform: translateY(1.75rem);
-                animation: wedont 3s 1s infinite  cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
-                }
-                h1:nth-child(9){
-                    transform: translateY(2rem);
-                    animation: wedont 4s 1.5s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
-                    }
 .moi{
     width: 48rem;
     font-size: 1.2rem;
@@ -173,6 +148,11 @@ h1:nth-child(5){
     top: -23rem;
     left: 45rem;
 }
+
+.fff{
+    padding: 4%;
+}
+
 
 @keyframes wedont {
     0%{
@@ -185,3 +165,4 @@ h1:nth-child(5){
         opacity: 1;
     }
 }
+
