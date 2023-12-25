@@ -1,17 +1,23 @@
+body{
+    width: 100%;
+}
+
 nav{
     position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
    height: 50px;
-   width: 98rem;
+   width: 100%;
    overflow: hidden;
+
  
   }
   nav ul {
       display: flex;
-      justify-content: space-between;
-      width: 90rem;
+      padding: 0;
+      justify-content: space-around;
+      width: 100%;
       position: absolute;
       top: 0;
       left: 0;

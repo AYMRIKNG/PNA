@@ -112,7 +112,7 @@ body{
 
  .cine{
     height: 16rem;
-    color: black;
+    color:  transparent;
     padding: 11rem;
     width: 20rem;
     position: absolute;

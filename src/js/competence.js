@@ -44,7 +44,7 @@ const test = [
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/c4.png)",
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/f.png)",
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/hc.png)",
-    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/j.png)",
+    "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/java.mp4)",
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/b.png)",
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/p.png)",
     "linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)) , url(/src/comptence/sw.png)",
