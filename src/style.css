@@ -1,6 +1,10 @@
+
+html{}
+
 body{
     background: black;
     overflow-x: hidden;
+    
 }
 
 
@@ -41,15 +45,16 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1% 4%;
-    height: 36rem;
+    height: 38rem;
 }
-h1,h4{
+h4{
     font-family: 'Archi';
 }
 h2{font-family: 'Inder';
-  
+  font-size: 1.7vw;
  }
-.gray{color: rgb(71, 71, 71);}
+.gray{color: rgb(88, 88, 88);
+    font-family: 'Archi';}
 h3{
     position: relative;
 z-index: 2;
@@ -61,7 +66,7 @@ h1{
     margin: 0;
     transform: translateX(-7.5rem);
     padding: 0;
-  color: #C02C2C;
+  color: #ff0000;
     width: 100%;
     height: 100%;
     
@@ -137,20 +142,26 @@ h1{
     width: 100%;
     overflow: hidden;
 }
-
+.about{
+    
+    padding: 0%;
+    height: 35vw;
+}
+.yo{
+    
+    width: 100%;
+}
 .moi{
-    width: 48rem;
-    font-size: 1.2rem;
+    width: 48vw;
+    font-size: 1rem;
+    margin: 0 25%;
+    margin-top: 10%;
 }
-.me{
-    filter: saturate(0%) brightness(20%) ;
-    position: relative;
-    top: -23rem;
-    left: 45rem;
-}
+
 
 .fff{
     padding: 4%;
+   
 }
 
 
@@ -166,3 +177,190 @@ h1{
     }
 }
 
+@media (min-width: 325px) and (max-width: 470px){
+    .redf{
+        background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("/shadergradient.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1% 5%;
+        margin: 5% 0;
+        height: 36rem;
+        transform: translateX(-.5rem);
+    }
+  h1{
+    transform: translateX(-2.2rem);
+    
+  }
+  .loc{
+    margin-top: 8REM;
+  }
+  .txt{
+    margin-top: 5rem;
+    width: 20rem;
+}
+h2{
+    font-size: 1rem;
+   
+}
+.about{
+    
+    padding: 0%;
+    height: 41rem;
+  
+}
+.moi{
+    width: 68vw;
+    font-size: 1rem;
+    margin: 0 15%;
+    margin-top: 10%;
+}
+.timeline{
+    padding: 0;
+    margin: 0;
+    margin-left: -1.5rem;
+  }
+
+  .up{
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    
+    
+  }
+  .down,.up{
+    display: flex;
+    justify-content: space-between;
+    width: 689%;
+    
+    transform: translateX(-1rem) translateY(-1rem);
+  }
+  .up h5,.down h5{
+     color: rgb(255, 255, 255);
+     font-size: 1.5rem;
+     width: 15rem;
+     height: 5rem;
+     background-color: transparent;
+     text-align: center;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Inder';
+     transform: rotate(-90deg);
+  }
+
+  .down{
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    margin-top: 2rem;
+    background-color: transparent;
+  }
+
+
+  .master{
+    transform: rotate(90deg);
+    margin-left: 3rem;
+   
+    
+  }
+  .lotti{
+    background-color: transparent;
+    height: 5rem;
+    display: none;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin: 0 45%;
+    position: relative;
+    top: 9rem;
+    z-index: 3;
+  }
+  .lotti h6{
+    color: transparent;
+  }
+  }
+
+
+  @media (min-width: 870px) and (max-width: 2470px){
+    .timeline{
+        padding: 0;
+        margin: 0;
+        margin-left: -7rem;
+      }
+    
+      .up{
+        padding: 0;
+        margin: 0;
+        height: 5rem;
+        margin-bottom: 1rem;
+        background-color: transparent;
+        
+       
+      }
+      .down,.up{
+        display: flex;
+        justify-content: space-between;
+        width: 169.7%;
+        transform: translateX(-6.5rem);
+      }
+      .up h5,.down h5{
+         color: rgb(255, 255, 255);
+         font-size: 1.5rem;
+         width: 15rem;
+         height: 5rem;
+         background-color: transparent;
+         text-align: center;
+         font-family: 'Inder';
+      }
+    
+      .down{
+        padding: 0;
+        margin: 0;
+        height: 5rem;
+      
+        background-color: transparent;
+      }
+      .nodeg{
+        transform: rotate(5deg);
+      }
+      .lotti:hover + .master {
+        transform: rotate(-5deg) translateX(-93rem) ;
+        
+        
+    }
+      .master{
+        transform: rotate(-5deg);
+        transition: transform 6s ease-in-out;
+      }
+      .master:hover{
+        transform: rotate(-5deg)  ;
+      }
+      /*transform: rotate(-5deg);
+      */
+    
+      .lotti{
+        background-color: transparent;
+        height: 5rem;
+        width: 5%;
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+        margin: 0 45%;
+        position: relative;
+        top: 9rem;
+        z-index: 3;
+      }
+    
+      h6{
+     color: white;
+      }
+    
+      .fornation{
+        height: 36rem;
+      }
+  }
+  
+ 
