@@ -10,7 +10,7 @@ html{
   }
   @font-face {
     font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
-    src: url('/Long_Shot.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('./Long_Shot.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 body{
 margin: 0;
@@ -26,14 +26,14 @@ overflow: hidden;
  
   }
   .work:nth-child(1){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/zx.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(./zx.png);
     background-position: center;
     background-size: 100%;
     transition: background-size 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;
     
   }
   .work:nth-child(2){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/zy.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(./zy.png);
     background-position: center;
     background-size: 100%;
     transition: background-size 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;
@@ -42,7 +42,7 @@ overflow: hidden;
     background-color: rgb(42, 35, 140);
   }
   .work:nth-child(4){
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(/zz.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(./zz.png);
     background-position: center;
     background-size: 100%;
     transition: background-size 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) ;

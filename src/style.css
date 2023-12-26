@@ -15,15 +15,15 @@ body{
 
 @font-face {
     font-family: 'Ice'; /* Le nom que vous voulez donner à la police */
-    src: url('/Iceland-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('./Iceland-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 @font-face {
     font-family: 'Archi'; /* Le nom que vous voulez donner à la police */
-    src: url('/ArchivoBlack-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('./ArchivoBlack-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 @font-face {
     font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
-    src: url('/Great\ Warrior.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('./Great\ Warrior.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 
 section{
@@ -41,7 +41,7 @@ span{
     color: #C02C2C;
 }
 .redf{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("/shadergradient.gif");
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("./shadergradient.gif");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1% 4%;

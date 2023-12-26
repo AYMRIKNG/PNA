@@ -139,7 +139,7 @@ body{
  }
 
  .redf{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("/shadergradient.gif");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("./shadergradient.gif");
     background-repeat: no-repeat;
     background-size: 150%;
     position: absolute;

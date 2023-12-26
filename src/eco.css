@@ -73,7 +73,7 @@ table{
     height: 18rem;
     
     transform: rotate(-5deg);
-    background: url(/eco/Eco/3.PNG);
+    background: url(./eco/Eco/3.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
@@ -86,7 +86,7 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(/eco/Eco/2.PNG);
+    background: url(./eco/Eco/2.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -97,7 +97,7 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(/eco/Eco/mapping\ -\ liste.PNG);
+    background: url(./eco/Eco/mapping\ -\ liste.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
@@ -110,7 +110,7 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(/eco/Eco/mapping\ -\ liste\ valeurs.PNG);
+    background: url(./eco/Eco/mapping\ -\ liste\ valeurs.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 }.imge{
@@ -120,7 +120,7 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(/eco/Eco/mapping\ -\ nouveau.PNG);
+    background: url(./eco/Eco/mapping\ -\ nouveau.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
@@ -133,7 +133,7 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(/eco/Eco/departement.PNG);
+    background: url(./eco/Eco/departement.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 }.imgg{
@@ -143,7 +143,7 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(/eco/Eco/départements.PNG);
+    background: url(./eco/Eco/départements.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
@@ -156,7 +156,7 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(/eco/Eco/gestion\ des\ utilisateurs.PNG);
+    background: url(./eco/Eco/gestion\ des\ utilisateurs.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 }.imgi{
@@ -166,7 +166,7 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(/eco/Eco/attribuer\ revoquer.PNG);
+    background: url(./eco/Eco/attribuer\ revoquer.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
