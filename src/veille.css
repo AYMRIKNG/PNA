@@ -17,7 +17,9 @@ h1{
     letter-spacing: 1rem;
     margin: 0;
 }
-
+.left div{
+    background-size: 100%;
+}
 h1,h2,p{
     color: white;
     
@@ -71,47 +73,47 @@ table{
     position: relative;
     top: -15rem;
     left: 40rem;
-    height: 18rem;
+    height: 14rem;
     width: 40rem;
     transform: rotate(-5deg);
     background: url(../pic08.png);
-    transition-delay: 1;
+    transition-delay: 1; background-size: 100%;
 }
 .imgc{
     position: relative;
     top: -15rem;
     left: 40rem;
-    height: 18rem;
+    height: 14rem;
     width: 40rem;
     transform: rotate(-5deg);
     background: url(../pic07.png);
-    transition-delay: 1;
+    transition-delay: 1; background-size: 100%;
 }
 .imge{
     position: relative;
     top: -15rem;
     left: 40rem;
-    height: 18rem;
+    height: 14rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(../pic06.png);   background-size: 100%;
-    transition-delay: 1;
+    background: url(../pic06.png);  
+    transition-delay: 1; background-size: 100%;
 }
 .imgb{
     position: relative;
     top: -15rem;
     left: -50rem;
-    height: 18rem;
+    height: 14rem;
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(../pic09.png);
+    background: url(../pic09.png); background-size: 100%;
 }
 .imgd{
     position: relative;
     top: -15rem;
     left: -50rem;
-    height: 18rem;
+    height: 14rem;
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
