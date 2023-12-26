@@ -1,7 +1,9 @@
 body{
     width: 100%;
 }
-
+.rouge{
+    color: rgb(195, 46, 46) !important; 
+}
 nav{
     position: absolute;
     top: 0;

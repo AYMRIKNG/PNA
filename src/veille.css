@@ -48,7 +48,7 @@ table{
     margin-bottom: 5rem;
 }
 .rouge{
-    color: rgb(195, 46, 46);
+    color: rgb(195, 46, 46) !important; 
 }
 .pres{
     
@@ -74,7 +74,27 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(../pic04.png);
+    background: url(../pic08.png);
+    transition-delay: 1;
+}
+.imgc{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(../pic07.png);
+    transition-delay: 1;
+}
+.imge{
+    position: relative;
+    top: -15rem;
+    left: 40rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(-5deg);
+    background: url(../pic06.png);   background-size: 100%;
     transition-delay: 1;
 }
 .imgb{
@@ -85,7 +105,18 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(../pic04.png);
+    background: url(../pic09.png);
+}
+.imgd{
+    position: relative;
+    top: -15rem;
+    left: -50rem;
+    height: 18rem;
+    width: 40rem;
+    transform: rotate(5deg);
+    transition-delay: 1s;
+    background-size: 100%;
+    background: url(../pic05.png);
 }
 
 td:hover{
@@ -181,11 +212,31 @@ td{
      .imga{
         position: relative;
         top: 0rem;
-        left: -12rem;
+        left: -10rem;
         height: 18rem;
         width: 40rem;
         transform: rotate(-5deg) scale(.7);
-        background: url(../pic04.png);
+        background-size: 100%;
+        transition-delay: 1;
+    }
+    .imgc{
+        position: relative;
+        top: 0rem;
+        left: -10rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(.7);
+        background-size: 100%;
+        transition-delay: 1;
+    }
+    .imge{
+        position: relative;
+        top: 0rem;
+        left: -10rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(.7);
+        background-size: 100%;
         transition-delay: 1;
     }
     .right{
@@ -201,12 +252,22 @@ td{
     .imgb{
         position: relative;
         top: 0rem;
-        left: -11rem;
+        left: -9rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg) scale(.7); background-size: 100%;
+        transition-delay: 1s;
+ 
+    }
+    .imgd{
+        position: relative;
+        top: 0rem;
+        left: -9rem;
         height: 18rem;
         width: 40rem;
         transform: rotate(5deg) scale(.7);
         transition-delay: 1s;
-        background: url(../pic04.png);
+        background-size: 100%;
     }
     
 }
