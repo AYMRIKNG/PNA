@@ -10,7 +10,7 @@ html{
   }
   @font-face {
     font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
-    src: url('./Long_Shot.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+    src: url('./font/Long_Shot.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 body{
 margin: 0;
