@@ -73,7 +73,7 @@ table{
     height: 18rem;
     width: 40rem;
     transform: rotate(-5deg);
-    background: url(/pic04.png);
+    background: url(../pic04.png);
     transition-delay: 1;
 }
 .imgb{
@@ -84,7 +84,7 @@ table{
     width: 40rem;
     transform: rotate(5deg);
     transition-delay: 1s;
-    background: url(/pic04.png);
+    background: url(../pic04.png);
 }
 
 td:hover{
