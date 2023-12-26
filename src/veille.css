@@ -36,6 +36,7 @@ section{
 .imgfirst{
    padding: 0% 13.5%; margin-top: 1rem;
    margin-bottom: 10rem;
+   width: 68rem;
    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .imgfirst:hover{
@@ -141,4 +142,71 @@ td{
     margin-left: 54%;
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (min-width: 325px) and (max-width: 470px){
+    h1{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        font-size: 1.5rem;
+        justify-content: center;
+        letter-spacing: 1rem;
+        margin: 0;
+        margin-top: 10rem;
+    }
+    .first{
+        margin-top: 5rem;
+        padding: 0% 15%;
+        text-align: center;
+        margin-bottom: 6rem;
+    }
+    .imgfirst{
+        padding: 0% 0%;
+        margin-top: 1rem;
+        margin-bottom: 10rem;
+        width: 32rem;
+        margin-left: -3.2rem;
+        transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+     }
+     .right h2{
+        width: 15rem;
+     }
+     .left h2{
+        width: 22rem;
+     }
+     .right p,.left p{
+        width: 22rem;
+     }
+     .imga{
+        position: relative;
+        top: 0rem;
+        left: -12rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(.7);
+        background: url(../pic04.png);
+        transition-delay: 1;
+    }
+    .right{
+        opacity: 1;
+    }
+    .left{
+        text-align: end;
+        margin-left: -1rem;
+        opacity: 1;
+        transform: translateY(20px);
+        transition: opacity 1s, transform 1s;
+    }
+    .imgb{
+        position: relative;
+        top: 0rem;
+        left: -11rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg) scale(.7);
+        transition-delay: 1s;
+        background: url(../pic04.png);
+    }
+    
 }
