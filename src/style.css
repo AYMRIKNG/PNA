@@ -41,7 +41,7 @@ span{
     color: #C02C2C;
 }
 .redf{
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("./shadergradient.gif");
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 0, 0.5)),url("shadergradient.gif");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1% 4%;
