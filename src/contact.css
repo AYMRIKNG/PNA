@@ -28,7 +28,7 @@ video{
     animation: spare 1s 4.2s ease-in-out forwards;
 }
 .rem{
-    
+    width: 42rem;
     position: absolute;
     z-index: 1;
     top: 11.5rem;
@@ -186,5 +186,76 @@ opacity: 0;}
     to {
         opacity: 1;
         left: 0rem;
+    }
+  }
+
+  @media (min-width: 325px) and (max-width: 470px){
+    body{
+        overflow-y: hidden;
+    }
+    .first{
+        background-color: rgb(0, 0, 0);
+        position: absolute;
+        z-index: 4;
+        top: -1rem;
+     
+        left: -1rem;
+        height: 35.5rem;
+        width: 130%;
+        animation: spare 1s 4.2s ease-in-out forwards;
+    }
+    .first h1{
+        font-family: 'Inder',sans-serif;
+        font-size: 4.5rem;
+        position: relative;
+        top: 10rem;
+        left: 2rem;
+        width: 5rem;
+       
+    }
+
+    .rem{
+        width: 16rem;
+        position: absolute;
+        z-index: 1;
+        top: 11.5rem;
+        left: 4.5rem;
+        transform: scale(50);
+        animation: grade 1.2s 4.3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+    }
+
+    .top h1{
+        font-size: 2rem;
+        font-family: 'Inder',sans-serif;
+        text-shadow: 0 0 15px black;
+        position: relative;
+        animation: fadeIn 2s 5.2s  cubic-bezier( 0.66, 0.02, 0, 0.99 ) forwards;
+        opacity: 0;
+    }
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        left: -2rem;
+        margin-top: 9rem;
+        font-family: 'Inder',sans-serif;
+        font-size: 0.7rem;
+        
+    }
+    .bottom h2{
+        font-size: .75rem;
+    }
+    .contact{
+        animation: fadeInG 2s 5.8s cubic-bezier( 0.66, 0.02, 0, 0.99 ) forwards;
+    position: relative;
+    
+    opacity: 0;}
+    .second{
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0);
+        position: absolute;
+        z-index: 3;
+        height: 25.5rem;
+        width: 99.5%;
     }
   }
