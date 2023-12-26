@@ -1,49 +1,37 @@
-# Introduction
-This is the a quick starter project made and used by Benjamin Code to quickly experiment stuffs when he's trying to replicate cool effects he sees on the web.
+# Bienvenue sur le Portfolio de [Votre Nom]
 
+![Portfolio Banner](lien_vers_une_image/banner.jpg)
 
-# Installation
-``` 
-npm install
-npm run start
-```
+## 🌟 Présentation
 
-And then go to `localhost:1234`
+Bienvenue sur mon portfolio en ligne, un espace numérique où l'innovation rencontre la créativité. Je suis [Votre Nom], un passionné de la technologie, du design et du développement. Explorez mon univers numérique et découvrez mes compétences, projets et expériences professionnelles.
 
-# Handling changes
-If you need to change things such as navbar for example, you will find all the reusable component througout the pages in the folder : `/src/partials`.
-Change the html here and modifiy the css in the good file in `/src/scss`.
-That is almost everything you need to know.
+## 🚀 Technologies Utilisées
 
-If you have run : `npm run start`, parcels has an excellent hot reload except if you are on another page than index.html. There is a bug with parcels that requires you to manually refresh the page when you are not working on `index.html`.
+Mon portfolio est construit avec les technologies les plus innovantes du moment. Voici quelques-unes des technologies que j'ai utilisées :
 
+- **React.js :** Une bibliothèque JavaScript pour construire des interfaces utilisateur interactives.
+- **Tailwind CSS :** Un framework CSS utilitaire pour créer des designs modernes et personnalisables.
+- **Three.js :** Une bibliothèque JavaScript pour créer des expériences 3D dans le navigateur.
+- **GitHub Pages :** Pour héberger ce portfolio de manière simple et gratuite.
 
-# Rollback to parcel v1
-I use this quick start kit to quickly launch new project for my livestreams on Twitch. At the end, the goal is to publish on codesandbox the result.
+## 💼 Projets Notables
 
-Unfortunately, parcel v2 is not well handled by codesandbox. When rolling back, I also had to remove the posthtlm feature which where buggy.
-Finally it is a very basing project where scss and typescript works out of the box but don't expect to do something really fancy with posthtml.
-For a bigger project with parcel v2 and many good features, use the main branch.
+Découvrez quelques-uns de mes projets les plus passionnants :
 
-# Alias to quickly upload the code on Codesandbox
-You must install codesandbox command line on your computer. Then add this alias to your `.zshrc`:
+1. **[ECOREPORT](https://lsdora.github.io/PNA/eco.html) :** Application de Gestion, Edition, Affichage de Rapport bancaire.
+2. **[Projet 2](lien_vers_projet_2) :** Courte description du projet 2.
+3. **[Projet 3](lien_vers_projet_3) :** Courte description du projet 3.
 
-```
-alias share_code='rm -rf dist .cache && codesandbox ./'
-```
+## 📌 Comment me Contacter
 
-# Benjamin Code
+Vous souhaitez discuter de projets, d'opportunités professionnelles ou simplement discuter de technologie ? N'hésitez pas à me contacter :
 
-It's also the project he uses for his Twitch livestreams.
+- **Email :** [aymerickng@gmail.com](mailto:aymerickng@gmail.com)
+- **LinkedIn :** [Aymerickng](https://www.linkedin.com/in/aymerickng/)
 
-A real project was made with this quick starter:
+## 🌐 Visitez Mon Portfolio
 
-https://benjamincode.tv
+Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://lsdora.github.io/PNA/). 🚀
 
-To support Benjamin Code, you can follow him on:
-
-YouTube: https://www.youtube.com/channel/UCLOAPb7ATQUs_nDs9ViLcMw
-
-Twitter: https://twitter.com/benjamincodeYT
-
-Twitch: https://www.twitch.tv/benjamincode
+N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
