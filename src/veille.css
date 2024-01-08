@@ -53,7 +53,7 @@ table{
     color: rgb(195, 46, 46) !important; 
 }
 .pres{
-    
+    cursor: zoom-in;
     margin: 0% 10%;
 }
 .pres h2{
@@ -175,6 +175,25 @@ td{
     margin-left: 54%;
     opacity: 1;
     transform: translateY(0);
+}
+.zoom{
+    transition: transform 1s ;
+}
+.zoom:hover{
+    position: relative;
+
+    transform: rotate(0) scale(2) translateX(-10rem);
+    transition: transform 1s ;
+}
+.zoom2{
+    transition: transform 1s ;
+}
+.zoom2:hover{
+    position: relative;
+   
+   
+    transform: rotate(0) scale(2) translateX(12rem);
+    transition: transform 1s ;
 }
 
 @media (min-width: 325px) and (max-width: 470px){
