@@ -7,7 +7,11 @@ Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://
 N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
 
 
-![Portfolio Banner](lien_vers_une_image/banner.jpg)
+![Acceuil](./acceuil.png)
+![work](./work.png)
+![competence](./competence.png)
+![Generique page : Veille / work ...](./generic.png)
+![Contact](lien_vers_une_image/banner.jpg)
 ![CHARTE GRAPHIQUE](./Group%2038.png)
 ![CHARTE TYPOGRAPHIQUE](./Group%2037.png)
 
