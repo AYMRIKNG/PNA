@@ -49,6 +49,9 @@ table{
 .rouge{
     color: #C02C2C;
 }
+a{
+    text-decoration: none;
+}
 .pres{
     
     margin: 0% 10%;
