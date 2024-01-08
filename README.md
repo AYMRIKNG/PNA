@@ -1,6 +1,8 @@
 # Bienvenue sur le Portfolio de NGAMPOLO AYMERICK
 
 ![Portfolio Banner](lien_vers_une_image/banner.jpg)
+![CHARTE GRAPHIQUE](./Group%2038.png)
+![CHARTE TYPOGRAPHIQUE](./Group%2037.png)
 
 ## 🌟 Présentation
 
