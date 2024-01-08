@@ -1,5 +1,12 @@
 # Bienvenue sur le Portfolio de NGAMPOLO AYMERICK
 
+## 🌐 Visitez Mon Portfolio
+
+Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://lsdora.github.io/PNA/). 🚀
+
+N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
+
+
 ![Portfolio Banner](lien_vers_une_image/banner.jpg)
 ![CHARTE GRAPHIQUE](./Group%2038.png)
 ![CHARTE TYPOGRAPHIQUE](./Group%2037.png)
@@ -32,8 +39,3 @@ Vous souhaitez discuter de projets, d'opportunités professionnelles ou simpleme
 - **Email :** [aymerickng@gmail.com](mailto:aymerickng@gmail.com)
 - **LinkedIn :** [Aymerickng](https://www.linkedin.com/in/aymerickng/)
 
-## 🌐 Visitez Mon Portfolio
-
-Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://lsdora.github.io/PNA/). 🚀
-
-N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
