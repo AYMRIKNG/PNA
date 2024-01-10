@@ -1,6 +1,10 @@
 body{
     width: 100%;
 }
+@font-face {
+    font-family: 'Lostar'; /* Le nom que vous voulez donner à la police */
+    src: url('./font/GreatWarrior.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
+}
 .rouge{
     color: #C02C2C !important; 
 }
@@ -58,4 +62,8 @@ nav{
   nav ul li:hover{
       transform: scale(1.2);
       cursor: crosshair;
+  }
+
+  li:first-child{
+    font-family: 'Lostar',sans-serif;
   }
