@@ -3,16 +3,17 @@
     src: url('./font/Inder-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 body{
-    background-color: black;
+    background-color: var(--seconde);
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
-h1{
+.tittle{
     text-align: center;
-    align-items: center;
+    position: relative;
+    padding-top: 8rem;
     display: flex;
-    font-size: 4rem;
+    animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1);
     justify-content: center;
     letter-spacing: 1rem;
     margin: 0;
@@ -20,10 +21,7 @@ h1{
 .left div{
     background-size: 100%;
 }
-h1,h2,p{
-    color: white;
-    
-}
+
 p{
     margin-top: 2rem;
 }
@@ -32,13 +30,19 @@ section{
 }
 
 .first{
+    top: 8rem;
+    opacity: 0;
     padding: 0% 15%;
     text-align: center;
+    position: relative;
+    animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 .imgfirst{
-   padding: 0% 13.5%; margin-top: 1rem;
-   margin-bottom: 10rem;
-   width: 68rem;
+    top: 9rem;
+   margin-bottom: 30rem;
+   width: 168rem;
+   position: relative;
+   right: 11rem;
    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .imgfirst:hover{
@@ -56,7 +60,7 @@ table{
     cursor: zoom-in;
     margin: 0% 10%;
 }
-.pres h2{
+.pres h4{
     width: 35rem;
    
 }
@@ -71,54 +75,54 @@ table{
 
 .imga{
     position: relative;
-    top: -15rem;
-    left: 40rem;
-    height: 14rem;
+    top: -26rem;
+    left: 60rem;
+    height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg);
-    background: url(../pic08.png);
+    transform: rotate(-5deg) scale(2);
+    background: url(./image/pic08.png);
     transition-delay: 1; background-size: 100%;
 }
 .imgc{
     position: relative;
-    top: -15rem;
-    left: 40rem;
-    height: 14rem;
+    top: -26rem;
+    left: 60rem;
+    height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg);
-    background: url(../pic07.png);
+    transform: rotate(-5deg) scale(2);
+    background: url(./image/pic08.png);
     transition-delay: 1; background-size: 100%;
 }
 .imge{
     position: relative;
-    top: -15rem;
-    left: 40rem;
-    height: 14rem;
+    top: -26rem;
+    left: 60rem;
+    height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg);
-    background: url(../pic06.png);  
+    transform: rotate(-5deg) scale(2);
+    background: url(./image/pic06.png);  
     transition-delay: 1; background-size: 100%;
 }
 .imgb{
     position: relative;
-    top: -15rem;
-    left: -50rem;
-    height: 14rem;
+    top: -26rem;
+    left: -60rem;
+    height: 15rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(5deg) scale(2);
     transition-delay: 1s;
-    background: url(../pic09.png); background-size: 100%;
+    background: url(./image/pic09.png); background-size: 100%;
 }
 .imgd{
     position: relative;
-    top: -15rem;
-    left: -50rem;
-    height: 14rem;
+    top: -26rem;
+    left: -60rem;
+    height: 15rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(5deg) scale(2);
     transition-delay: 1s;
     background-size: 100%;
-    background: url(../pic05.png);
+    background: url(./image/pic05.png);
 }
 
 td:hover{
@@ -182,7 +186,7 @@ td{
 .zoom:hover{
     position: relative;
 
-    transform: rotate(0) scale(2) translateX(-10rem);
+    transform: rotate(0) scale(4) translateX(-5rem);
     transition: transform 1s ;
 }
 .zoom2{
@@ -192,103 +196,21 @@ td{
     position: relative;
    
    
-    transform: rotate(0) scale(2) translateX(12rem);
+    transform: rotate(0) scale(4) translateX(9rem);
     transition: transform 1s ;
 }
 
+@keyframes hop {
+    from{
+     opacity: 0;
+     transform: translateY(15rem);
+    }
+    to{
+     opacity: 1;
+     transform: translateY(0rem);
+    }
+}
+
 @media (min-width: 325px) and (max-width: 470px){
-    h1{
-        text-align: center;
-        align-items: center;
-        display: flex;
-        font-size: 1.5rem;
-        justify-content: center;
-        letter-spacing: 1rem;
-        margin: 0;
-        margin-top: 10rem;
-    }
-    .first{
-        margin-top: 5rem;
-        padding: 0% 15%;
-        text-align: center;
-        margin-bottom: 6rem;
-    }
-    .imgfirst{
-        padding: 0% 0%;
-        margin-top: 1rem;
-        margin-bottom: 10rem;
-        width: 32rem;
-        margin-left: -3.2rem;
-        transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-     }
-     .right h2{
-        width: 15rem;
-     }
-     .left h2{
-        width: 22rem;
-     }
-     .right p,.left p{
-        width: 22rem;
-     }
-     .imga{
-        position: relative;
-        top: 0rem;
-        left: -10rem;
-        height: 18rem;
-        width: 40rem;
-        transform: rotate(-5deg) scale(.7);
-        background-size: 100%;
-        transition-delay: 1;
-    }
-    .imgc{
-        position: relative;
-        top: 0rem;
-        left: -10rem;
-        height: 18rem;
-        width: 40rem;
-        transform: rotate(-5deg) scale(.7);
-        background-size: 100%;
-        transition-delay: 1;
-    }
-    .imge{
-        position: relative;
-        top: 0rem;
-        left: -10rem;
-        height: 18rem;
-        width: 40rem;
-        transform: rotate(-5deg) scale(.7);
-        background-size: 100%;
-        transition-delay: 1;
-    }
-    .right{
-        opacity: 1;
-    }
-    .left{
-        text-align: end;
-        margin-left: -1rem;
-        opacity: 1;
-        transform: translateY(20px);
-        transition: opacity 1s, transform 1s;
-    }
-    .imgb{
-        position: relative;
-        top: 0rem;
-        left: -9rem;
-        height: 18rem;
-        width: 40rem;
-        transform: rotate(5deg) scale(.7); background-size: 100%;
-        transition-delay: 1s;
- 
-    }
-    .imgd{
-        position: relative;
-        top: 0rem;
-        left: -9rem;
-        height: 18rem;
-        width: 40rem;
-        transform: rotate(5deg) scale(.7);
-        transition-delay: 1s;
-        background-size: 100%;
-    }
-    
+  
 }

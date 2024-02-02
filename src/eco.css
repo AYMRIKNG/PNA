@@ -3,7 +3,7 @@
     src: url('./font/Inder-Regular.ttf') format('truetype'); /* Chemin vers le fichier TrueType */
 }
 body{
-    background-color: black;
+
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -19,7 +19,7 @@ h1{
 }
 
 h1,h2,p{
-    color: white;
+    color: var(--main-color);
     
 }
 p{

@@ -1,0 +1,39 @@
+.clock {
+    position: relative;
+    width: 15rem;
+    top: 4.5rem;
+    left: 4.5rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(20, 208, 146, 0.952);
+    transform: rotate(265deg);
+  }
+  
+  .hand {
+    position: absolute;
+    bottom: 50%;
+    width: 1rem;
+    height: 50%;
+    background: var(--main-color);
+    transform-origin: bottom;
+    transition: all 0.05s;
+    z-index: 2;
+    transition-timing-function: steps(1, end);
+  }
+  .cadre{
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      height: 25rem;
+      width: 25rem;
+      left: 0;
+  }
+  .red{
+      background: rgb(130, 25, 25);
+  }
+  .short{
+      height: 40%;
+  }
+

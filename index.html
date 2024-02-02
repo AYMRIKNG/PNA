@@ -3,14 +3,25 @@
 <head>
     <title>NGAMPOLO AYMERICK</title>
     <meta charset="UTF-8"/>
-    <link rel="stylesheet" type="text/css" href="src/style.css"/>
+    <link rel="stylesheet" type="text/css" href="src/reset.css"/>
     <link rel="stylesheet" type="text/css" href="src/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="src/workscroll.css"/>
+    <link rel="stylesheet" type="text/css" href="src/grid.css"/>
+    <link rel="stylesheet" type="text/css" href="src/index.css"/>
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
     <link rel="canonical" href="https://www.example.com">
     <!-- Robot   <meta name="robots" content="noindex, nofollow"> -->
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Ajoutez ces lignes dans la section <head> de votre fichier HTML pour inclure la bibliothèque Slick -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
     <!-- Device -->
     <!-- <meta name="viwport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
@@ -41,102 +52,86 @@
 </head>
 
 <body>
-
-    
-<section class="fff">
+<header>
     <nav>
-        <ul class="main-menu show">
-            <li>ANG</li>
-            <li>PORTFOLIO</li>
-            <li id="toggle-menu">MENU</li>
+        <ul>
+        <li class="u">AY NGAMPOLO</li>
+        <li class="uu time" id="loc"></li>
+        <ul class="uuu">
+            <li>LET START</li>
+            <li class="underline time">MENU</li>
         </ul>
-        <ul class="sub-menu">
-            <li><a  class="rouge">HOME</a></li>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="competence.html" >COMPETENCE</a></li>
-            <li><a href="veille.html">VEILLE</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            <li id="untoggle-menu">X</li>
         </ul>
-        <script src="./src/js/nav.js" defer></script>
     </nav>
-    <section class="intro">
-        <img class="rem" src="/src/transparent-infinity-symbol-colorful-glossy-3d-infinity-symbol-on-black-backg656161f35930e0.1418746317008808833653.png" height="" width="500rem" alt="" srcset="">
-    </section>
-     <section class="redf">
-        
-        <h2 class="loc" id="loc">PARIS FRANCE 17:35 NOV   |   REMOTE</h2>
-        <script>
-            function updateDateTime() {
-              var locElement = document.getElementById('loc');
-              var currentDate = new Date();
-              var currentHour = currentDate.getHours();
-              var currentMinute = currentDate.getMinutes();
-              var currentMonth = currentDate.toLocaleString('default', { month: 'short' });
-              var formattedTime = currentHour + ':' + (currentMinute < 10 ? '0' : '') + currentMinute;
-              var formattedDateTime = formattedTime + ' ' + currentMonth;
-              locElement.textContent = 'PARIS FRANCE ' + formattedDateTime + '   |   REMOTE';
-            }
-            updateDateTime();
-            setInterval(updateDateTime, 20000);
-          </script>
-     <div class="class">
-        <h1>AYMERICK</h1>
-     </div>
-        <h4 class="name">NGAMPOLO</h4>
-    <div class="space">
-        <div>
-            <h2 class="txt">"L'informatique, c'est l'exploration <span>infinie</span> des possibles, une quête sans fin pour repousser les limites de la logique et de l'imagination technologique." -<span> Mark Zuckerberg </span></h2>
-               
-         </div>
-         
-    </div>
-        
-     </section>
-  
-<section class="about">
-    <h2 class="gray yo">about </h2>
-    <h2 class="moi">
-        Bonjour, je suis Aymerick Ngampolo, un passionné de 20 ans axé sur le développement web, la cybersécurité et les jeux vidéo. Initialement attiré par l'informatique à travers les jeux, mon ambition est maintenant de devenir développeur de logiciels spécialisé en cybersécurité. Ma curiosité insatiable me pousse à explorer constamment de nouvelles technologies. Je suis reconnu pour ma persévérance et mon engagement dans chaque projet. Découvrez mon portfolio pour une plongée rapide dans mes compétences et réalisations, et explorons ensemble les horizons infinis de l'informatique.</h2>
-</section>
+</header>
 
-<section class="fornation">
-    <h2 class="gray yo">formation </h2>
-    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-
-    <div class="lotti">
-        <dotlottie-player src="https://lottie.host/9a16e648-9c99-44ff-ab88-c6fb04f94f4c/LhQRgjzKid.json" background="transparent" speed="1" style="width: 50px; height: 50px;" loop autoplay></dotlottie-player>
-        <h6>HOVER ME</h6>
-    </div>
-    <div class="master">
-        <div class="up">
-            <h5>2021</h5>
-            <h5>2022</h5>
-            <h5>2023<br>2024</h5>
-            <h5>2025</h5>
-            <h5>2026<br>2027</h5>
-            <h5>2028</h5>
-        </div>
-        <img class="timeline" src="linebts.svg" height="55rem" alt="" srcset="">
-        <div class="down">
-            <h5 class="nodeg">BAC<br>GENERAL</h5>
-            <h5 class="nodeg">LICENCE<br>CYCLE 1<br>INFORMATIQUE<br>MATHEMATIQUE</h5>
-            <h5 class="nodeg">BTS SIO SLAM</h5>
-            <h5 class="nodeg">LICENCE<br>CYCLE 3<br>ARCHITECTURE<br>LOGICIEL</h5>
-            <h5 class="nodeg">MASTER<br>CYBERSECURITE</h5>
-            <h5 class="nodeg">?</h5>
-        </div>
-    </div>
+<section class="menu">
+<div>
+    <a href="index.html"  rel="noopener noreferrer"><h3 class="h3">HOME <span class="hsix">(1)</span></h3></a>
+    <a href="competence.html"  rel="noopener noreferrer"><h3 class="h3">SKILLS <span class="hsix">(2)</span></h3></a>
+    <a href="myself.html"  rel="noopener noreferrer"><h3 class="h3">MYSELF <span class="hsix">(3)</span></h3></a>
+    <a href="contact.html"  rel="noopener noreferrer"><h3 class="h3">LET START <span class="hsix">(4)</span></h3></a>
+    <a href="veille.html"  rel="noopener noreferrer"><h3 class="h3">VEILLE <span class="hsix">(5)</span></h3></a>
+</div>
+<script src="./src/js/menu.js"></script>
+<div>
+  <iframe src="./time.html" frameborder="0" scrollable="no"></iframe>
+  <h4>IT'S TIME TO WORK WITH ME !</h4>
+</div>
 
 </section>
-
-
-
-
+<section>
+    <h1>HOME</h1>
+    <div class="container">
+        <div class="slides">
+          <div class="slide">
+            <a href="./eco.html"  rel="noopener noreferrer"><img src="/src/image/ecoreport.png" alt="Application" /></a>
+          </div>
+          <div class="slide">
+            <a href="./servadmin.html"  rel="noopener noreferrer"><img src="/src/image/servadmin.png" alt="Application" /></a>
+          </div>
+          <div class="slide">
+            <a href="./gestion.html"  rel="noopener noreferrer"><img src="/src/image/gestion ligue.png" alt="Application" /></a>
+          </div>
+          <div class="slide">
+            <img src="/src/image/pic07.png" alt="Soon" />
+          </div>
+        </div>
+        <div class="slide-controls">
+          <button id="prev-btn">
+            <h4>←</h4>
+          </button>
+          <span ><h6 ></h6></span>
+          <button id="next-btn">
+            <h4>→</h4>
+          </button>
+        </div>
+      </div>
+      <div class="slide-name">
+        <h3 class="hh" id="slide-name"></h3>
+      </div>
     
-
+  <script src="./src/js/plz.js"></script>
+</section>
+<footer>
+    <nav>
+        <ul class="uuuu">
+            <ul>
+             <li><a href="https://www.linkedin.com/in/aymerickng/"  rel="noopener noreferrer">LIN</a></li>
+             <li><a href="https://www.instagram.com/aymrikkk/"  rel="noopener noreferrer">IG</a></li>
+             <LI><a href="http://"  rel="noopener noreferrer">X</a></LI>
+            </ul>
+        <li class="uuuuu time" id="slide-index"></li>
+        <ul class="uuuuuu">
+            <li class="time">@2024</li>
+        </ul>
+        </ul>
+    </nav>
+</footer>
 
 <script type="module" src="src/index.ts"></script>
+<script type="module" src="src/js/clock.js"></script>
 
+<a href="http://"  rel="noopener noreferrer"> </a>
 </body>
 </html>

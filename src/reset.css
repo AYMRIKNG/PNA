@@ -1,0 +1,55 @@
+
+:root {
+    --main-color: #EFEBE7;
+    --seconde: black;
+    --red:rgb(130, 25, 25);
+  }
+html{font-size: 62.5%;}
+body{background: var(--seconde);overflow-x: hidden;color: var(--main-color);}
+
+
+@font-face {font-family: 'Inder';src: url('./font/Author-Regular.otf') format('truetype');font-weight: 100; }
+@font-face { font-family: 'Lustria';letter-spacing: 3rem;src: url('./font/Boska-Regular.otf') format('truetype');}
+@font-face { font-family: 'Lu';src: url('./font/ClashDisplay-Semibold.otf') format('truetype');}
+@font-face { font-family: 'Time';src: url('./font/Array-Regular.otf') format('truetype');}
+@font-face { font-family: 'RI';src: url('./font/Boska-Light.otf') format('truetype');}
+
+
+/*margin padding*/
+h1,h2,h3,h4,h5,h6,nav ul li,section,body,nav,ul,a{margin: 0;padding: 0;}
+
+/*text*/
+h1{font-size: 42.75rem;font-family: 'Lustria';}
+h2{font-size: 10.625rem;font-family: 'Lu';}
+h3,.link a,.he{font-size: 8.625rem;font-family: 'Inder',sans-serif;}
+.hh{font-size: 8.625rem;font-family: 'Ri',sans-serif;letter-spacing: .5rem;}
+h4{font-size: 3.125rem;font-family: 'Inder';}
+h5{font-size:  1.8rem;font-family: 'Lu';}
+nav ul li,h6,.hsix,p{font-size: 1.8rem;font-family: 'Inder',sans-serif;}
+a{color: var(--main-color);text-decoration: none;}
+
+section{
+    padding: 2%;
+}
+span{font-weight: 100;}
+.link a{
+    color: var(--main-color);
+    text-decoration: none;
+   
+    font-family: 'Inder',sans-serif;
+
+}
+
+.time,.hsix{
+    font-family: 'Time';
+}
+
+.timebl{
+    filter: brightness(20%);
+}
+.serif{
+    font-family: 'Lu';
+}
+.red{
+  color: var(--red);
+}

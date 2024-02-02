@@ -1,0 +1,122 @@
+.located{
+    width: 100%;
+    height: 100rem;
+}
+.bg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 50rem;
+    width: 95rem;
+    transform: translateX(30%) translateY(30%) scale(0);
+    background-position: center;
+    background-size: 100%;
+    filter: saturate(50%);
+    background-image: url(./image/pexels-una-laurencic-20967.jpg), linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
+    animation: plus 1.5s .95s forwards cubic-bezier(0.19, 1, 0.22, 1);
+    
+}
+@keyframes plus {
+    from{transform: translateX(30%) translateY(30%) scale(0);}to{transform: translateX(30%) translateY(30%) scale(1);}
+}
+h1{
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    top: 5rem;
+    mix-blend-mode: difference;
+}
+.gridbgcont{
+
+    height: 40rem;
+    width: 70rem;
+    transform: translateX(50%) translateY(-150%);
+    position: relative;
+    z-index: -1;
+}
+.gridbgcont div{
+    opacity: 0;
+    position: absolute;
+    height: 40rem;
+    width: 70rem;
+    background-position: center;
+    background-size: 100%;
+
+    transition: opacity .7s cubic-bezier(0.8,-0.25,0.2,1);
+}
+
+
+#img4{
+    background-size: 120%;
+}
+
+.presentation{
+    display: flex;
+    padding-top: 25rem;
+    padding-bottom: 15rem;
+}
+.presentation div:first-child{
+    width: 40%;
+    vertical-align: center ;
+    padding: 15%;
+    background-color: rgb(0, 0, 0);
+}
+.presentation div:first-child::content{
+    background-color: gray;
+}
+.presentation div:last-child{
+    width: 60%;
+    background-size: 100%;
+    background-image: url(./image/rererererererere.jpg);
+    background-position: center;
+    height: 70rem;
+}
+.paris{
+    mix-blend-mode: difference;
+}
+.loca{
+  height: 77vh;
+}
+.paris h1{
+    font-size: 54.75rem !important;
+    height: 65rem;
+}
+.paris h5{
+    text-align: center;
+    position: relative;
+    top: 10rem;
+}
+.paris h4{
+    position: relative;
+    top: -4rem;
+    left: 15rem;
+}
+.bg{
+    position: absolute;
+   
+    z-index: -1;
+    height: 50rem;
+    width: 95rem;
+    transform: translateX(30%) translateY(-100%);
+    background-position: center;
+    background-size: 100%;
+    background-image: url(./image/pexels-pixabay-2344.jpg);
+    z-index: 2;
+    
+}
+.h1:hover ~ .bg{
+    background-image: url(./gif/arc.gif);
+}
+.paris h1{
+    text-align: center;font-size: 41.75rem;
+    position: relative;
+    z-index: 3;
+    mix-blend-mode: difference;
+    background: transparent;
+}
+.hd{
+    position: relative;
+    top: -8rem;
+    left: 15rem;
+}

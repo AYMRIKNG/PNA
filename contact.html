@@ -1,86 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NGAMPOLO AYMERICK</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="src/reset.css"/>
     <link rel="stylesheet" type="text/css" href="src/nav.css"/>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/myself.css"/>
     <link rel="stylesheet" type="text/css" href="src/contact.css"/>
+  
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.example.com">
+    <!-- Robot   <meta name="robots" content="noindex, nofollow"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Ajoutez ces lignes dans la section <head> de votre fichier HTML pour inclure la bibliothèque Slick -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+    <!-- Device -->
+    <!-- <meta name="viwport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Title -->
+    <title>NGAMPOLO AYMERICK</title>
+    <!-- Description -->
+    <meta name="description" content="Home description.">
+    <!-- Social -->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quick Parcel Project — Home">
+    <meta name="twitter:description" content="Home description.">
+    <meta name="twitter:image" content="#">
+    <!-- Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com">
+    <meta property="og:title" content="Quick Parcel Project — Home">
+    <meta property="og:description" content="Home description.">
+    <meta property="og:image" content="#">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Favicon -->
+    <meta name="theme-color" content="#fff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@0;1&family=Tenor+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
+<header>
     <nav>
-        <ul class="main-menu show">
-            <li>ANG</li>
-            <li>PORTFOLIO</li>
-            <li id="toggle-menu">MENU</li>
+        <ul>
+        <li class="u">AY NGAMPOLO</li>
+        <li class="uu time" id="loc"></li>
+        <ul class="uuu">
+            <li>LET START</li>
+            <li class="underline time">MENU</li>
         </ul>
-        <ul class="sub-menu">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="work.html">WORK</a></li>
-            <li><a href="competence.html" >COMPETENCE</a></li>
-            <li><a href="veille.html">VEILLE</a></li>
-            <li><a class="rouge">CONTACT</a></li>
-            <li id="untoggle-menu">X</li>
         </ul>
-        <script src="./src/js/nav.js" defer></script>
     </nav>
-    <section class="first">
-      <h1>
-        <span>LETS</span>
-        <span>WORK</span>
-        <span>TOGETHER !</span>
-      </h1>
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var spans = document.querySelectorAll('.first h1 span');
-    
-          function handleAnimationEnd() {
-            // Détecter la fin de l'animation fadeIn
-            this.removeEventListener('animationend', handleAnimationEnd);
-            
-            // Lancer l'animation fadeOut
-            this.style.animation = 'fadeOut 2s cubic-bezier(0.66, 0.02, 0, 0.99) forwards';
-          }
-    
-          // Attacher un gestionnaire d'événements pour chaque span
-          spans.forEach(function (span) {
-            span.addEventListener('animationend', handleAnimationEnd);
-          });
-        });
-      </script>
-    </section>
-    <section class="second">
-      <div class="top">
-        <h1 class="title">A LA <br> RECHERCHE</h1>
-        <h1 class="title"> D'UNE <br> ALTERNANCE</h1>
-      </div>
-      <div class="bottom">
-        <div class="contact">
-        <h2 class="gray">ME CONTACTER /</h2>
-        <h2>+(33)7 61 12 53 01</h2>
-        <h2>AYMERICKNG@GMAIL.COM</h2>
-        <h2>@AYMERICKNG</h2>
-        </div>
-        <div class="alternance">
-        <h2 class="gray">POSTE RECHERCHER</h2>
-        <h2>DEVELOPPEUR WEB / APPLICATION</h2>
-        <h2>CYBERSECURITER</h2>
-        <h2></h2>
-        </div>
-        <div class="localisation">
-        <h2 class="gray">LOCALISATION</h2>
-        <h2>PARIS / FRANCE</h2>
-        <h2>REMOTE</h2>
-        
-        </div>
-      </div>
+</header>
 
+<section class="menu">
+<div>
+    <a href="index.html"  rel="noopener noreferrer"><h3 class="h3">HOME <span class="hsix time">(1)</span></h3></a>
+    <a href="competence.html"  rel="noopener noreferrer"><h3 class="h3">SKILLS <span class="hsix time">(2)</span></h3></a>
+    <a href="myself.html"  rel="noopener noreferrer"><h3 class="h3">MYSELF <span class="hsix time">(3)</span></h3></a>
+    <a href="contact.html"  rel="noopener noreferrer"><h3 class="h3">LET START <span class="hsix time">(4)</span></h3></a>
+    <a href="veille.html"  rel="noopener noreferrer"><h3 class="h3">VEILLE <span class="hsix time">(5)</span></h3></a>
+</div>
+<script src="./src/js/menu.js"></script>
+<div>
+  <iframe src="./time.html" frameborder="0" scrollable="no"></iframe>
+  <h4>IT'S TIME TO WORK WITH ME !</h4>
+</div>
 
+</section>
+<section class="contact">
+    <div>
+        <div class="rec">
+            <h5>DEVELOPPER BASED IN</h6>
+            <h5 id="lic"></h6>
+        </div>
+        <h2>TIME TO WORK WITH ME</h6>
+        <h6>Je suis actuellement à la recherche d’un alternanace en developpement informatique.</h4>
+        <div>
+            <h6>test</h6>
+            <h6>test</h6>
+            <h6>test</h6>
+            <h6>test</h6>
+            <h6>test</h6>
 
-   
-    </section>
-    <a href="./CV Ngampolo Aymerick (1).pdf" target="_blank"><img class="rem" src="./src/transparent-infinity-symbol-colorful-glossy-3d-infinity-symbol-on-black-backg656161f35930e0.1418746317008808833653.png" alt="" srcset=""></a>
-      
+        </div>
+    </div>
+    <div>
+        <h6>CREATIVECODER</h6>
+        <h6>CYBERSECURITER</h6>
+    </div>
+    <div>
+    <h6>TRADING</h6>
+    <img class="shanone" src="./src/image/rererererererere.jpg" alt="">
+    <h6>APPLICATION DEVELOPPER</h6>
+    </div>
+
+</section>
+<footer>
+    <nav>
+        <ul>
+            <ul class="uuuu">
+             <li><a href="https://www.linkedin.com/in/aymerickng/"  rel="noopener noreferrer">LIN</a></li>
+             <li><a href="https://www.instagram.com/aymrikkk/"  rel="noopener noreferrer">IG</a></li>
+             <LI><a href="http://"  rel="noopener noreferrer">X</a></LI>
+            </ul>
+        <li id="loc"></li>
+        <ul>
+            <li class="uuuuu time">@2024</li>
+        </ul>
+        </ul>
+    </nav>
+</footer>
+
+<script type="module" src="src/index.ts"></script>
+<script type="module" src="src/js/clock.js"></script>
+<a href="http://"  rel="noopener noreferrer"> </a>
 </body>
 </html>

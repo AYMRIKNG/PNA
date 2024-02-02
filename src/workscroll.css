@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+   
+    width: 150%;
+    z-index: 2;
+  }
+  .slides div{
+
+  }
+  
+  .slides {
+    display: flex;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .slide {
+    transform: translateX(40%);
+   
+    transition: all 0.5s ease-in-out;
+  }
+  .scroll-effect {
+    filter: blur(1px);
+    transform: translateX(45%) scale(0.95);
+  }
+  .slide img {
+    width: 90rem;
+    height: 35rem;
+    transition: filter .5s ease-in-out;
+  
+  }
+
+  
+  .slide-controls {
+    
+    margin-top: -2rem;
+    color:var(--main-color);
+    width: 67%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  button {
+    background: none;
+    border: none; color: var(--main-color);
+    cursor: pointer;
+  }
+  
+  .slide span h6{
+    position: relative;
+    left: 8rem;
+  }
