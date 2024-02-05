@@ -30,6 +30,7 @@ nav ul ul li:last-child{
 
 .menu{display: flex;
  position: absolute;
+overflow: hidden;
  z-index: 10;
 background-color: var(--seconde);
 top: -75rem;
@@ -103,8 +104,8 @@ height: 93vh;
 iframe{
     margin-left: -2rem ;
 
-    min-height: 50rem;
-    min-width: 50rem;
+    min-height: 75rem;
+    min-width: 70rem;
     
 }
 

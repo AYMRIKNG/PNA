@@ -11,7 +11,8 @@
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Canonical -->
-    <link rel="canonical" href="https://www.example.com">
+    <link rel="canonical" href="https://www.example.com">    <script src="https://kit.fontawesome.com/17ef388729.js" crossorigin="anonymous"></script>
+
     <!-- Robot   <meta name="robots" content="noindex, nofollow"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- Ajoutez ces lignes dans la section <head> de votre fichier HTML pour inclure la bibliothèque Slick -->
@@ -52,6 +53,8 @@
 </head>
 
 <body>
+
+
 <header>
     <nav>
         <ul>
@@ -63,23 +66,32 @@
         </ul>
         </ul>
     </nav>
+    <section class="menu">
+      <div>
+          <a href="./index.html"  rel="noopener noreferrer"><h3 class="h3">HOME <span class="hsix">(1)</span></h3></a>
+          <a href="./competence.html"  rel="noopener noreferrer"><h3 class="h3">SKILLS <span class="hsix">(2)</span></h3></a>
+          <a href="./myself.html"  rel="noopener noreferrer"><h3 class="h3">MYSELF <span class="hsix">(3)</span></h3></a>
+          <a href="./contact.html"  rel="noopener noreferrer"><h3 class="h3">LET START <span class="hsix">(4)</span></h3></a>
+          <a href="./veille.html"  rel="noopener noreferrer"><h3 class="h3">VEILLE <span class="hsix">(5)</span></h3></a>
+      </div>
+      <script src="./src/js/menu.js"></script>
+      <div>
+        <iframe id="hor" src="./time.html" frameborder="0" scrollable="no"></iframe>
+        <script>
+          fetch('./time.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('hor').innerHTML = data;
+        });
+      
+        </script>
+      
+      </div>
+      
+      </section>
 </header>
 
-<section class="menu">
-<div>
-    <a href="./index.html"  rel="noopener noreferrer"><h3 class="h3">HOME <span class="hsix">(1)</span></h3></a>
-    <a href="./competence.html"  rel="noopener noreferrer"><h3 class="h3">SKILLS <span class="hsix">(2)</span></h3></a>
-    <a href="./myself.html"  rel="noopener noreferrer"><h3 class="h3">MYSELF <span class="hsix">(3)</span></h3></a>
-    <a href="./contact.html"  rel="noopener noreferrer"><h3 class="h3">LET START <span class="hsix">(4)</span></h3></a>
-    <a href="./veille.html"  rel="noopener noreferrer"><h3 class="h3">VEILLE <span class="hsix">(5)</span></h3></a>
-</div>
-<script src="./src/js/menu.js"></script>
-<div>
-  <iframe src="./time.html" frameborder="0" scrollable="no"></iframe>
-  <h4>IT'S TIME TO WORK WITH ME !</h4>
-</div>
 
-</section>
 <section>
     <h1>HOME</h1>
     <div class="container">
@@ -123,7 +135,8 @@
             </ul>
         <li class="uuuuu time" id="slide-index"></li>
         <ul class="uuuuuu">
-            <li class="time">@2024</li>
+          <li class="time">@2024</li>
+            <button onclick="swapColors()"><i id="sun" class="fa-solid fa-sun" ></i></button><script src="./src/js/sunmoon.js"></script>
         </ul>
         </ul>
     </nav>
@@ -132,6 +145,8 @@
 <script type="module" src="src/index.ts"></script>
 <script type="module" src="src/js/clock.js"></script>
 
+
+</script>
 <a href="http://"  rel="noopener noreferrer"> </a>
 </body>
 </html>

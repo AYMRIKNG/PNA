@@ -4,8 +4,10 @@
     --seconde: black;
     --red:rgb(130, 25, 25);
   }
-html{font-size: 62.5%;}
-body{background: var(--seconde);overflow-x: hidden;color: var(--main-color);}
+html{font-size: 62.5%;
+
+}
+body{background: var(--seconde);overflow-x: hidden;color: var(--main-color);transition: color 1s cubic-bezier(0.8,-0.25,0.2,1), background 1s cubic-bezier(0.8,-0.25,0.2,1);}
 
 
 @font-face {font-family: 'Inder';src: url('./font/Author-Regular.otf') format('truetype');font-weight: 100; }

@@ -11,7 +11,11 @@ function updateDateTime() {
     var formattedTime = currentHour + ':' + (currentMinute < 10 ? '0' : '') + currentMinute + ':' + (currentSecond < 10 ? '0' : '') + currentSecond;
     var formattedDateTime = formattedTime ;
     locElement.textContent = formattedDateTime;
-    locElement2.textContent = 'PARIS,FRANCE,'+currentDay;
+
+    if(locElement2){
+      locElement2.textContent = 'PARIS,FRANCE,'+currentDay;
+    }
+ 
 
   }
   updateDateTime();

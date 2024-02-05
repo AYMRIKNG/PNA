@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <style>
+  :root {
+    --main-color: #EFEBE7;
+    --seconde: black;
+    --red:rgb(130, 25, 25);
+  }
     body{
-        background-color: black;
+        background-color: var(--seconde);
     }
+
+    @font-face {font-family: 'Inder';src: url('./font/Author-Regular.otf') format('truetype');font-weight: 100; }
 .clock {
   position: relative;
   width: 15rem;
-  top: 4.5rem;
-  left: 4.5rem;
+  top: 9.5rem;
+  left: 9.5rem;
   height: 15rem;
   border-radius: 50%;
   display: flex;
@@ -16,13 +23,18 @@
   background-color: rgba(127, 255, 212, 0);
   transform: rotate(265deg);
 }
-
+h4{
+  color: var(--main-color);
+  font-family: 'Inder';
+  font-size: 2.5rem;
+  transform: translateY(15rem) translateX(1rem);
+}
 .hand {
   position: absolute;
   bottom: 50%;
   width: 2px;
-  height: 50%;
-  background: #ffffff;
+  height: 75%;
+  background: var(--main-color);
   transform-origin: bottom;
   transition: all 0.05s;
   z-index: 2;
@@ -32,11 +44,23 @@
     z-index: 2;
     position: absolute;
     top: 0;
-    height: 25rem;
-    width: 25rem;
+    height: 35rem;
+    width: 35rem;
     left: 0;
     animation: rotation 29s linear infinite;
+    filter: blur(.5px) brightness(80%);
   }
+  .cadre2{
+    z-index: 2;
+    position: absolute;
+    top: -1.5rem;
+    height: 38rem;
+    width: 38em;
+    left: -1.5rem;
+   filter: drop-shadow(0px 0px 10px black);
+    animation: antirotation 33s linear infinite;
+  }
+  
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -45,11 +69,20 @@
       transform: rotate(360deg);
     }
   }
+  @keyframes antirotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
 .red{
-    background: red;
+    background: var(--red);
+    height: 75%;
 }
 .short{
-    height: 40%;
+    height: 55%;
 }
 </style>
 <body>
@@ -60,6 +93,7 @@
   <div class="hand red" id="second-hand"></div>
 </div>
 <img class="cadre" src="./src/image/horloge2.png" alt="">
+<img class="cadre2" src="./src/image/horloge2.png" alt="">
 <h4>IT'S TIME TO WORK WITH ME</h4>
 <script>
 function setDate() {
@@ -81,5 +115,6 @@ setInterval(setDate, 1000);
 setDate();
 </script>
 
+<script src="./src/js/sunmoon.js"></script>
 </body>
 </html>

@@ -68,7 +68,9 @@ a{
 .pres div{
 
 }
-
+h1{
+    font-size: 29rem !important;
+}
 .imga{
     position: relative;
     top: -15rem;

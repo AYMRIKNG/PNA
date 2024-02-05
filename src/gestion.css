@@ -4,7 +4,11 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+.zero{
+    text-align: center;
+    position: relative;
+    top: 16rem;
+}
 .tittle{
     text-align: center;
     position: relative;
