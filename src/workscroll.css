@@ -88,7 +88,7 @@
     }
     
     .slide {
-      transform: translateX(15%);
+      transform: translateX(27%);
      
       transition: all 0.5s ease-in-out;
     }
