@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="./src/reset.css">
+</head>
+<script src="./src/js/sunmoon.js"></script>
 <style>
   :root {
-    --main-color: #EFEBE7;
-    --seconde: black;
-    --red:rgb(130, 25, 25);
+
+    
   }
     body{
         background-color: var(--seconde);
@@ -14,8 +17,8 @@
 .clock {
   position: relative;
   width: 15rem;
-  top: 9.5rem;
-  left: 9.5rem;
+  top: 20rem;
+  left: 20rem;
   height: 15rem;
   border-radius: 50%;
   display: flex;
@@ -26,9 +29,10 @@
 h4{
   color: var(--main-color);
   font-family: 'Inder';
-  font-size: 2.5rem;
-  transform: translateY(15rem) translateX(1rem);
+  font-size: 4.5rem;
+  transform: translateY(38rem) translateX(2.5rem);
 }
+
 .hand {
   position: absolute;
   bottom: 50%;
@@ -44,21 +48,21 @@ h4{
     z-index: 2;
     position: absolute;
     top: 0;
-    height: 35rem;
-    width: 35rem;
+    height: 55rem;
+    width: 55rem;
     left: 0;
-    animation: rotation 29s linear infinite;
-    filter: blur(.5px) brightness(80%);
+    animation: rotation 22s linear infinite;
+    filter: var(--clear2);
   }
   .cadre2{
     z-index: 2;
     position: absolute;
     top: -1.5rem;
-    height: 38rem;
-    width: 38em;
+    height: 58rem;
+    width: 58em;
     left: -1.5rem;
-   filter: drop-shadow(0px 0px 10px black);
-    animation: antirotation 33s linear infinite;
+   filter: var(--clear);
+    animation: antirotation 43s linear infinite;
   }
   
   @keyframes rotation {
@@ -84,6 +88,7 @@ h4{
 .short{
     height: 55%;
 }
+
 </style>
 <body>
 
@@ -92,29 +97,13 @@ h4{
   <div class="hand" id="minute-hand"></div>
   <div class="hand red" id="second-hand"></div>
 </div>
-<img class="cadre" src="./src/image/horloge2.png" alt="">
-<img class="cadre2" src="./src/image/horloge2.png" alt="">
+<img id="cadre" class="cadre " src="./src/image/horloge2.png" alt="">
+<img id="cadree" class="cadre2 " src="./src/image/horloge2.png" alt="">
 <h4>IT'S TIME TO WORK WITH ME</h4>
-<script>
-function setDate() {
-  const now = new Date();
-  const seconds = now.getSeconds();
-  const secondsDegrees = ((seconds / 60) * 360) + 90;
-  document.getElementById('second-hand').style.transform = `rotate(${secondsDegrees}deg)`;
-
-  const mins = now.getMinutes();
-  const minsDegrees = ((mins / 60) * 360) + ((seconds/60)*6) + 90;
-  document.getElementById('minute-hand').style.transform = `rotate(${minsDegrees}deg)`;
-
-  const hour = now.getHours();
-  const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30) + 90;
-  document.getElementById('hour-hand').style.transform = `rotate(${hourDegrees}deg)`;
-}
-
-setInterval(setDate, 1000);
-setDate();
+<script src="./src/js/time.js">
 </script>
-
 <script src="./src/js/sunmoon.js"></script>
+
+
 </body>
 </html>

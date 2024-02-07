@@ -1,0 +1,79 @@
+body{
+    background-color: var(--seconde);
+}
+
+@font-face {font-family: 'Inder';src: url('./font/Author-Regular.otf') format('truetype');font-weight: 100; }
+.clock {
+position: relative;
+width: 15rem;
+top: 9.5rem;
+left: 9.5rem;
+height: 15rem;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+background-color: rgba(127, 255, 212, 0);
+transform: rotate(265deg);
+}
+h4{
+color: var(--main-color);
+font-family: 'Inder';
+font-size: 2.5rem;
+transform: translateY(15rem) translateX(1rem);
+}
+
+.hand {
+position: absolute;
+bottom: 50%;
+width: 2px;
+height: 75%;
+background: var(--main-color);
+transform-origin: bottom;
+transition: all 0.05s;
+z-index: 2;
+transition-timing-function: steps(1, end);
+}
+.cadre{
+z-index: 2;
+position: absolute;
+top: 0;
+height: 35rem;
+width: 35rem;
+left: 0;
+animation: rotation 29s linear infinite;
+filter: var(--filter);
+}
+.cadre2{
+z-index: 2;
+position: absolute;
+top: -1.5rem;
+height: 38rem;
+width: 38em;
+left: -1.5rem;
+filter: var(--filter);
+animation: antirotation 33s linear infinite;
+}
+
+@keyframes rotation {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(360deg);
+}
+}
+@keyframes antirotation {
+from {
+  transform: rotate(0deg);
+}
+to {
+  transform: rotate(-360deg);
+}
+}
+.redo{
+background: var(--red);
+height: 75%;
+}
+.short{
+height: 55%;
+}

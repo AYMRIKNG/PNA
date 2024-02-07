@@ -4,9 +4,7 @@
     width: 150%;
     z-index: 2;
   }
-  .slides div{
 
-  }
   
   .slides {
     display: flex;
@@ -77,9 +75,7 @@
       width: 200%;
       z-index: 2;
     }
-    .slides div{
   
-    }
     
     .slides {
       display: flex;

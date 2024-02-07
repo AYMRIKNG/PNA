@@ -19,7 +19,7 @@ h1{
 }
 .slide-name{
 width: 100%;
-
+filter: var(--filter);
 display: flex;
 background-color: transparent;
 justify-content: center;opacity: 0;

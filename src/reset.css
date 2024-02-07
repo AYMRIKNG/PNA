@@ -4,7 +4,11 @@
     --seconde: black;
     --red:rgb(130, 25, 25);
     --hh:8.625rem;
-  }
+    --clear: brightness(100%);
+    --clear2: brightness(60%);
+    --blind: brightness(0%);
+    --blind2: brightness(40%);
+}
 html{font-size: 62.5%;
 
 }
