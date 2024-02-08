@@ -6,14 +6,12 @@ Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://
 
 N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
 
-## Acceul
-![Acceuil](./acceuil.png)
-## Work
-![work](./work.png)
+## Acceul / Work
+![Acceuil](./src/image/Frame%206.png)
 ## Competence
-![competence](./competence.png)
+![competence](./src/image/Frame%207.png
 ## Generic Page
-![Generique page : Veille / work ...](./generic.png)
+![Generique page : Veille / work ...](./src/image/generic%20(1).png)
 ##
 ![Contact](lien_vers_une_image/banner.jpg)
 ![CHARTE GRAPHIQUE](./Group%2038.png)
@@ -37,7 +35,7 @@ Mon portfolio est construit avec les technologies les plus innovantes du moment.
 Découvrez quelques-uns de mes projets les plus passionnants :
 
 1. **[ECOREPORT](https://lsdora.github.io/PNA/eco.html) :** Application de Gestion, Edition, Affichage de Rapport bancaire.
-2. **[Projet 2](lien_vers_projet_2) :** Courte description du projet 2.
+2. **[GESTION DE LIGUE](https://lsdora.github.io/PNA/gestion.html) :** Courte description du projet 2.
 3. **[Projet 3](lien_vers_projet_3) :** Courte description du projet 3.
 
 ## 📌 Comment me Contacter

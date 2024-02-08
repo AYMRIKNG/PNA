@@ -169,7 +169,7 @@ td{
 
 .left{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s, transform 1s;
@@ -177,7 +177,7 @@ td{
 
 .left-visible{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 1;
     transform: translateY(0);
 }
