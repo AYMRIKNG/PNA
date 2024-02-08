@@ -4,13 +4,116 @@ body{
     padding: 0;
  overflow: hidden;
     background-color: black;
+    width: 100%;
     }
 
     section{
        
         height: 75vh;
  
- 
+        width: 100%;
         padding: 2% 0;
-        
+       
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        }
+
+    table , td, th {
+        border: 1px solid #59595900;
+        border-collapse: collapse;
+       
+    }
+    td, th {
+        padding: 3px;
+        width: 40rem;
+        height: 25px;
+       
+    }
+    td{
+        width: 45rem;
+    }
+    button {
+        background: none;
+        border: none;
+        color: var(--main-color);
+        cursor: pointer;
+    }
+
+    @keyframes step {
+        from{
+            opacity: 0;
+        }to{
+            opacity: 1;
+        }
+    }
+
+    h3:nth-child(1){
+        animation: step 1s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(2){
+        animation: step 1s .5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(3){
+        animation: step 1s 1s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(4){
+        animation: step 1s 1.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(5){
+        animation: step 1s 2s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(6){
+        animation: step 1s 2.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(7){
+        animation: step 1s 3s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(8){
+        animation: step 1s 3.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(9){
+        animation: step 1s 4s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(10){
+        animation: step 1s 4.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(11){
+        animation: step 1s 5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(12){
+        animation: step 1s 5.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(13){
+        animation: step 1s 6s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(15){
+        animation: step 1s 6.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(16){
+        animation: step 1s 7s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(17){
+        animation: step 1s 7.5s forwards ease-in-out;
+        opacity: 0;
+    }
+    h3:nth-child(18){
+        animation: step 1s 8s forwards ease-in-out;
+        opacity: 0;
     }

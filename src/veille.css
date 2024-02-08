@@ -51,7 +51,7 @@ table{
     margin-bottom: 5rem;
 }
 .rouge{
-    color: rgb(195, 46, 46) !important; 
+    color: var(--red) !important; 
 }
 .pres{
     cursor: zoom-in;
@@ -165,7 +165,7 @@ td{
 
 .left{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s, transform 1s;
@@ -173,7 +173,7 @@ td{
 
 .left-visible{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 1;
     transform: translateY(0);
 }
@@ -193,7 +193,7 @@ td{
     position: relative;
    
    
-    transform: rotate(0) scale(4) translateX(9rem);
+    transform: rotate(0) scale(4) translateX(4rem);
     transition: transform 1s ;
 }
 
