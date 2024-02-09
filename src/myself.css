@@ -71,6 +71,7 @@ button {
     color: var(--main-color);
     cursor: pointer;
 }
+
 .presentation div:last-child{
     width: 60%;
     background-size: 100%;

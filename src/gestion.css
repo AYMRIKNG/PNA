@@ -23,7 +23,12 @@ body{
 .left div{
     background-size: 100%;
 }
-
+a{
+    color: blue;
+}
+a:hover{
+    filter: brightness(70%);
+}
 p{
     margin-top: 2rem;
 }
