@@ -3,12 +3,13 @@ body{
     margin: 0;
     padding: 0;
  overflow: hidden;
-    background-color: black;
+ 
     width: 100%;
     }
 
     body{
         background-color: var(--seconde);
+        height: 75vh;
     }
     section{
        
@@ -21,8 +22,9 @@ body{
     table{
         display: flex;
         justify-content: center;
+        
         }
-
+h
     table , td, th {
         border: 1px solid #59595900;
         border-collapse: collapse;
@@ -32,7 +34,7 @@ body{
         padding: 3px;
         width: 40rem;
         height: 25px;
-       
+        margin-bottom: 1vh;
     }
     td{
         width: 45rem;
@@ -50,32 +52,55 @@ body{
         50%{transform: scale(1);opacity: 1;}
         100%{transform: scale(.95);}
     }
+    table{
+       
+    }
 
     .bout{
-        animation: step 3s 1s infinite ease-in-out;   opacity: 0;
+        animation: step 3s 1s infinite ease-in-out;   opacity: 0;font-size: 5vw; 
     }
     .boutt{
-        animation: step 3s 1.3s infinite ease-in-out;  opacity: 0; 
+        animation: step 3s 1.3s infinite ease-in-out;  opacity: 0; font-size: 5vw; 
     }
     .bouttt{
-        animation: step 3s 1.4s infinite ease-in-out; opacity: 0;  
+        animation: step 3s 1.4s infinite ease-in-out; opacity: 0; font-size: 5vw;  
     }
     .boutttt{
-        animation: step 3s 1.6s infinite ease-in-out; opacity: 0;  
+        animation: step 3s 1.6s infinite ease-in-out; opacity: 0; font-size: 5vw;  
     }
     .boud{
-        animation: step 3s 1.8s infinite ease-in-out; opacity: 0;  
+        animation: step 3s 1.8s infinite ease-in-out; opacity: 0;  font-size: 5vw; 
     }
     .boudd{
-        animation: step 3s 2s infinite ease-in-out; opacity: 0;  
+        animation: step 3s 2s infinite ease-in-out; opacity: 0;  font-size: 5vw; 
     }
     .bouddd{
-        animation: step 3s 2.3s infinite ease-in-out; opacity: 0;  
+        animation: step 3s 2.3s infinite ease-in-out; opacity: 0; font-size: 5vw;  
     }
     .bou{
-        animation: step 3s 2.4s infinite ease-in-out;  opacity: 0; 
+        animation: step 3s 2.4s infinite ease-in-out;  opacity: 0; font-size: 5vw; 
     }
     
     
     
+    @media screen and (max-width: 768px) {
+        table{
+           margin-top: 5rem;
+           height: 30rem;
+        }
+        td, th {
+            padding: 3px;
+            width: 40rem;
+            height: 25px;
+            
+        }
+        .bou,.boud,.boudd,.bouddd,.bout,.boutt,.bouttt,.boutttt{
+            margin-bottom: 8vh;
+        }
+    }
     
+    @media screen and (max-width: 576px) {
+        table{
+        
+        }
+    }
