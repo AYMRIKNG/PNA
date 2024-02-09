@@ -22,7 +22,7 @@ body{
     table{
         display: flex;
         justify-content: center;
-        
+      
         }
 h
     table , td, th {
@@ -80,7 +80,9 @@ h
     .bou{
         animation: step 3s 2.4s infinite ease-in-out;  opacity: 0; font-size: 5vw; 
     }
-    
+    .bou,.boud,.boudd,.bouddd,.bout,.boutt,.bouttt,.boutttt{
+        text-align: center;
+    }
     
     
     @media screen and (max-width: 768px) {
