@@ -7,10 +7,13 @@ body{
     width: 100%;
     }
 
+    body{
+        background-color: var(--seconde);
+    }
     section{
        
         height: 75vh;
- 
+        
         width: 100%;
         padding: 2% 0;
        
@@ -42,78 +45,37 @@ body{
     }
 
     @keyframes step {
-        from{
-            opacity: 0;
-        }to{
-            opacity: 1;
-        }
+       
+        0%{transform: scale(.95);}
+        50%{transform: scale(1);opacity: 1;}
+        100%{transform: scale(.95);}
     }
 
-    h3:nth-child(1){
-        animation: step 1s forwards ease-in-out;
-        opacity: 0;
+    .bout{
+        animation: step 3s 1s infinite ease-in-out;   opacity: 0;
     }
-    h3:nth-child(2){
-        animation: step 1s .5s forwards ease-in-out;
-        opacity: 0;
+    .boutt{
+        animation: step 3s 1.3s infinite ease-in-out;  opacity: 0; 
     }
-    h3:nth-child(3){
-        animation: step 1s 1s forwards ease-in-out;
-        opacity: 0;
+    .bouttt{
+        animation: step 3s 1.4s infinite ease-in-out; opacity: 0;  
     }
-    h3:nth-child(4){
-        animation: step 1s 1.5s forwards ease-in-out;
-        opacity: 0;
+    .boutttt{
+        animation: step 3s 1.6s infinite ease-in-out; opacity: 0;  
     }
-    h3:nth-child(5){
-        animation: step 1s 2s forwards ease-in-out;
-        opacity: 0;
+    .boud{
+        animation: step 3s 1.8s infinite ease-in-out; opacity: 0;  
     }
-    h3:nth-child(6){
-        animation: step 1s 2.5s forwards ease-in-out;
-        opacity: 0;
+    .boudd{
+        animation: step 3s 2s infinite ease-in-out; opacity: 0;  
     }
-    h3:nth-child(7){
-        animation: step 1s 3s forwards ease-in-out;
-        opacity: 0;
+    .bouddd{
+        animation: step 3s 2.3s infinite ease-in-out; opacity: 0;  
     }
-    h3:nth-child(8){
-        animation: step 1s 3.5s forwards ease-in-out;
-        opacity: 0;
+    .bou{
+        animation: step 3s 2.4s infinite ease-in-out;  opacity: 0; 
     }
-    h3:nth-child(9){
-        animation: step 1s 4s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(10){
-        animation: step 1s 4.5s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(11){
-        animation: step 1s 5s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(12){
-        animation: step 1s 5.5s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(13){
-        animation: step 1s 6s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(15){
-        animation: step 1s 6.5s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(16){
-        animation: step 1s 7s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(17){
-        animation: step 1s 7.5s forwards ease-in-out;
-        opacity: 0;
-    }
-    h3:nth-child(18){
-        animation: step 1s 8s forwards ease-in-out;
-        opacity: 0;
-    }
+    
+    
+    
+    

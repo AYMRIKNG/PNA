@@ -16,6 +16,7 @@ body{
     display: flex;
     animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1);
     justify-content: center;
+    opacity: 0;
     letter-spacing: 1rem;
     margin: 0;
 }
@@ -148,6 +149,13 @@ table{
     background: url(./image/code4.png);
 }
 
+.sub{
+    text-align: center;
+    position: relative;
+    top: 15rem;
+    animation: hop 4s .3s forwards cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 0;
+}
 
 td:hover{
     

@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var $slider = $('.slides');
-    var names = ["ECOREPORT", "SERVADMIN", "GESTION DE LIGUE", "SOON"];
+    var names = ["ECOREPORT", "SERVADMIN", "GESTION DE LIGUE", "IN THE LAB"];
     $('.slides').slick({
       infinite: true,
       slidesToShow: 3,
