@@ -33,11 +33,7 @@ section{
     padding: 0% 15%;
     text-align: center;
 }
-.imgfirst{
-   padding: 0% 13.5%; margin-top: 1rem;
-   margin-bottom: 10rem;
-   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
+
 .imgfirst:hover{
     transform: scale(1.05);
 }

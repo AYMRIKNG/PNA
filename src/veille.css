@@ -34,14 +34,7 @@ section{
     position: relative;
     animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
-.imgfirst{
-    top: 9rem;
-   margin-bottom: 30rem;
-   width: 168rem;
-   position: relative;
-   right: 11rem;
-   transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
+
 .imgfirst:hover{
     transform: scale(1.05);
 }
@@ -208,6 +201,107 @@ td{
     }
 }
 
-@media (min-width: 325px) and (max-width: 470px){
-  
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 910px){
+    .imga{
+        position: relative;
+        top: 10rem;
+        left: -4.25rem;
+        height: 15rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(1.25);
+        background: url(./image/pic08.png);
+        transition-delay: 1; background-size: 100%;
+    }
+    .imgc{
+        position: relative;
+        top: 10rem;
+        left: -4.25rem;
+        height: 15rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(1.25);
+        background: url(./image/pic08.png);
+        transition-delay: 1; background-size: 100%;
+    }
+    .imge{
+        position: relative;
+        top: 10rem;
+        left: -4.25rem;
+        height: 15rem;
+        width: 40rem;
+        transform: rotate(-5deg) scale(1.25);
+        background: url(./image/pic06.png);  
+        transition-delay: 1; background-size: 100%;
+    }
+    .imgb{
+        position: relative;
+        top: 10rem;
+        left: -4.25rem;
+        height: 15rem;
+        width: 40rem;
+        transform: rotate(5deg) scale(1.25);
+        transition-delay: 1s;
+        background: url(./image/pic09.png); background-size: 100%;
+    }
+    .imgd{
+        position: relative;
+        top: 10rem;
+        left: -4.25rem;
+        height: 15rem;
+        width: 40rem;
+        transform: rotate(5deg) scale(1.25);
+        transition-delay: 1s;
+        background-size: 100%;
+        background: url(./image/pic05.png);
+    }
+    
+    .right {
+        opacity: 1;
+        margin-bottom: 30rem;
+        transform: translateY(0px);
+        transition: opacity 0.5s, transform 1s;
+    }
+    
+    .left{
+        text-align: end;
+        margin-left: 0%;
+        opacity: 1;
+        margin-bottom: 30rem;
+        transform: translateY(0px);
+        transition: opacity 1s, transform 1s;
+    }
+    
+    .left-visible{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    .zoom{
+        transition: transform 1s ;
+    }
+    .zoom:hover{
+        position: relative;
+    
+        transform: rotate(0) scale(0) translateX(0rem);
+        transition: transform 1s ;
+    }
+    .zoom2{
+        transition: transform 1s ;
+    }
+    .zoom2:hover{
+        position: relative;
+       
+       
+        transform: rotate(0) scale(0) translateX(0rem);
+        transition: transform 1s ;
+    }
 }

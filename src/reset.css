@@ -26,7 +26,7 @@ body{background: var(--seconde);overflow-x: hidden;color: var(--main-color);tran
 h1,h2,h3,h4,h5,h6,nav ul li,section,body,nav,ul,a{margin: 0;padding: 0;}
 
 /*text*/
-h1{font-size: 42.75rem;font-family: 'Lustria';}
+h1{font-size: 26.75vw;font-family: 'Lustria';}
 h2{font-size: 10.625rem;font-family: 'Lu';}
 h3,.link a,.he{font-size: 8.625rem;font-family: 'Inder',sans-serif;}
 .hh{font-size: var(--hh);font-family: 'Ri',sans-serif;letter-spacing: .5rem;}
@@ -48,7 +48,12 @@ span{font-weight: 100;}
     font-family: 'Inder',sans-serif;
 
 }
-
+.imgfirst{
+    margin-top: 5rem;
+    margin-bottom: 30rem;
+    width: 95vw;
+    transition: transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+ }
 .time,.hsix{
     font-family: 'Time';
 }
@@ -69,3 +74,4 @@ span{font-weight: 100;}
         font-size: 3.5rem;
     }
 }
+
