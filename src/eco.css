@@ -268,7 +268,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
         background: url(../eco/Eco/3.PNG);
         background-size: contain;
         background-repeat: no-repeat;
@@ -280,7 +280,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(5deg);
+        transform: rotate(0deg);
         transition-delay: 1s;
         background: url(../eco/Eco/2.PNG);
         background-size: contain;
@@ -292,7 +292,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
         background: url(../eco/Eco/mapping\ -\ liste.PNG);
         background-size: contain;
         background-repeat: no-repeat;
@@ -304,7 +304,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(5deg);
+        transform: rotate(0deg);
         transition-delay: 1s;
         background: url(../eco/Eco/mapping\ -\ liste\ valeurs.PNG);
         background-size: contain;
@@ -315,7 +315,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
         background: url(../eco/Eco/mapping\ -\ nouveau.PNG);
         background-size: contain;
         background-repeat: no-repeat;
@@ -327,7 +327,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(5deg);
+        transform: rotate(0deg);
         transition-delay: 1s;
         background: url(../eco/Eco/departement.PNG);
         background-size: contain;
@@ -338,7 +338,7 @@ td{
         left: -4.25rem;
         height: 18rem;
         width: 40rem;
-        transform: rotate(-5deg);
+        transform: rotate(0deg);
         background: url(../eco/Eco/départements.PNG);
         background-size: contain;
         background-repeat: no-repeat;

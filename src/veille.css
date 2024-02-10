@@ -249,7 +249,7 @@ td{
         left: -4.25rem;
         height: 15rem;
         width: 40rem;
-        transform: rotate(5deg) scale(1.25);
+        transform: scale(1.25);
         transition-delay: 1s;
         background: url(./image/pic09.png); background-size: 100%;
     }
@@ -259,7 +259,7 @@ td{
         left: -4.25rem;
         height: 15rem;
         width: 40rem;
-        transform: rotate(5deg) scale(1.25);
+        transform: scale(1.25);
         transition-delay: 1s;
         background-size: 100%;
         background: url(./image/pic05.png);
