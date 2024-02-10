@@ -12,12 +12,23 @@ h1{
     text-align: center;
     align-items: center;
     display: flex;
-    font-size: 4rem;
+    font-size: 15.75vw !important;
     justify-content: center;
+    letter-spacing: 1rem;
+   
+    margin-top: 25rem;
+}
+.tittle{
+    text-align: center;
+    position: relative;
+    padding-top: 8rem;
+    display: flex;
+    animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1);
+    justify-content: center;
+    opacity: 0;
     letter-spacing: 1rem;
     margin: 0;
 }
-
 h1,h2,p{
     color: var(--main-color);
     
@@ -30,8 +41,12 @@ section{
 }
 
 .first{
+    top: 4rem;
+    opacity: 0;
     padding: 0% 15%;
     text-align: center;
+    position: relative;
+    animation: hop 3s forwards cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 
 .imgfirst:hover{
@@ -39,7 +54,7 @@ section{
 }
 table{
     padding: 0% 10%;
-    margin-top: 10rem;
+    margin-top: 8rem;
     margin-bottom: 5rem;
 }
 .rouge{
@@ -52,8 +67,9 @@ a{
     cursor: url('./Rectangle\ 132.png'),auto;
     margin: 0% 10%;
 }
-.pres h2{
+.pres h4{
     width: 35rem;
+
    
 }
 .pres p{
@@ -64,9 +80,7 @@ a{
 .pres div{
 
 }
-h1{
-    font-size: 29rem !important;
-}
+
 .imga{
     position: relative;
     top: -15rem;
@@ -234,7 +248,7 @@ td{
 
 .left{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s, transform 1s;
@@ -242,7 +256,164 @@ td{
 
 .left-visible{
     text-align: end;
-    margin-left: 54%;
+    margin-left: 70%;
     opacity: 1;
     transform: translateY(0);
+}
+
+@media (max-width: 910px){
+    .imga{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg);
+        background: url(../eco/Eco/3.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-delay: 1;
+    }
+    .imgb{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg);
+        transition-delay: 1s;
+        background: url(../eco/Eco/2.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .imgc{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg);
+        background: url(../eco/Eco/mapping\ -\ liste.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-delay: 1;
+    }
+    .imgd{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg);
+        transition-delay: 1s;
+        background: url(../eco/Eco/mapping\ -\ liste\ valeurs.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }.imge{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg);
+        background: url(../eco/Eco/mapping\ -\ nouveau.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-delay: 1;
+    }
+    .imgf{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg);
+        transition-delay: 1s;
+        background: url(../eco/Eco/departement.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }.imgg{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg);
+        background: url(../eco/Eco/départements.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-delay: 1;
+    }
+    .imgh{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(5deg);
+        transition-delay: 1s;
+        background: url(../eco/Eco/gestion\ des\ utilisateurs.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }.imgi{
+        position: relative;
+        top: 8rem;
+        left: -4.25rem;
+        height: 18rem;
+        width: 40rem;
+        transform: rotate(-5deg);
+        background: url(../eco/Eco/attribuer\ revoquer.PNG);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-delay: 1;
+    }
+    .zoom{
+        transition: transform 1s ;
+    }
+    .zoom:hover{
+        position: relative;
+    
+        transform: rotate(0) scale(1) translateX(0rem);
+        transition: transform 1s ;
+    }
+    .zoom2{
+        transition: transform 1s ;
+    }
+    .zoom2:hover{
+        position: relative;
+       
+       
+        transform: rotate(0) scale(1) translateX(0rem);
+        transition: transform 1s ;
+    }
+    
+    .right {
+        margin-bottom: 30rem;
+        opacity: 1;
+        transform: translateY(20px);
+        transition: opacity 0.5s, transform 1s;
+    }
+    
+    .right-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    
+    .left{
+        margin-bottom: 30rem;
+        text-align: end;
+        margin-left: 0%;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: opacity 1s, transform 1s;
+    }
+    
+    .left-visible{
+        text-align: end;
+        margin-left: 0%;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
 }
