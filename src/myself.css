@@ -2,14 +2,27 @@
     width: 100%;
     height: 100rem;
 }
+.bg{
+    position: absolute;
+    left: 25rem;
+    z-index: -1;
+    height: 30vw;
+    width: 70vw;
+    transform: translateY(-100%);
+    background-position: center;
+    background-size: 100%;
+    background-image: url(./image/pexels-pixabay-2344.jpg);
+    z-index: 2;
+    
+}
 .bg2{
     position: absolute;
     top: 0;
-    left: 0;
+    left: -10rem;
     z-index: 2;
-    height: 50rem;
-    width: 95rem;
-    transform: translateX(30%) translateY(30%) scale(0);
+    height: 30vw;
+    width: 70vw;
+    transform:  translateY(30%) scale(0);
     background-position: center;
     background-size: 100%;
     filter: saturate(50%);
@@ -23,7 +36,7 @@
 h1{
     text-align: center;
     position: relative;
-    z-index: 3;
+    z-index: 3;font-size: 30vw;
     top: 5rem;
     mix-blend-mode: difference;
 }
@@ -86,7 +99,6 @@ button {
   height: 77vh;
 }
 .paris h1{
-    font-size: 54.75rem !important;
     height: 65rem;
 }
 .paris h5{
@@ -96,29 +108,18 @@ button {
 }
 .paris h4{
     position: relative;
+    z-index: 2;
     top: -4rem;
     left: 15rem;
 }
-.bg{
-    position: absolute;
-   
-    z-index: -1;
-    height: 50rem;
-    width: 95rem;
-    transform: translateX(30%) translateY(-100%);
-    background-position: center;
-    background-size: 100%;
-    background-image: url(./image/pexels-pixabay-2344.jpg);
-    z-index: 2;
-    
-}
+
 .h1:hover ~ .bg{
     background-image: url(./gif/arc.gif);
 }
 .paris h1{
-    text-align: center;font-size: 41.75rem;
+    text-align: center;
     position: relative;
-    z-index: 3;
+    z-index: 3;font-size: 38vw;
     mix-blend-mode: difference;
     background: transparent;
 }
@@ -126,4 +127,37 @@ button {
     position: relative;
     top: -8rem;
     left: 15rem;
+}
+
+@media (max-width: 910px){
+
+
+    .bg{
+        position: absolute;
+        left: 25rem;
+        z-index: -1;
+        height: 30vw;
+        width: 70vw;
+        transform: translateY(-100%);
+        background-position: center;
+        background-size: 100%;
+        background-image: url(./image/pexels-pixabay-2344.jpg);
+        z-index: 2;
+        
+    }
+    .bg2{
+        position: absolute;
+        top: 10rem;
+        left: -2rem;
+        z-index: 2;
+        height: 30vw;
+        width: 70vw;
+        transform:  translateY(30%) scale(0);
+        background-position: center;
+        background-size: 100%;
+        filter: saturate(50%);
+        background-image: url(./image/pexels-una-laurencic-20967.jpg), linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
+        animation: plus 1.5s .95s forwards cubic-bezier(0.19, 1, 0.22, 1);
+        
+    }
 }

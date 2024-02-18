@@ -13,21 +13,28 @@
   
   .slide {
     transform: translateX(40%);
-   
-    transition: all 0.5s ease-in-out;
+    filter: saturate(0%);
+  
+    transition: transform 0.5s ease-in-out, filter 2s ease-in-out;
+  }
+  .slick-current{
+    filter:saturate(100%);
+    transition: filter 2s ease-in-out;
   }
   .scroll-effect {
-    filter: blur(1px);
+   
     transform: translateX(45%) scale(0.95);
   }
   .slide img {
     width: 90rem;
     height: 35rem;
     transition: filter .5s ease-in-out;
-  
+    
   }
 
-  
+  img{
+    border-radius: 20px;
+  }
   .slide-controls {
     
     margin-top: -2rem;
