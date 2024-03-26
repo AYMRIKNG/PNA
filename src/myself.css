@@ -1,163 +1,155 @@
-.located{
-    width: 100%;
-    height: 100rem;
-}
-.bg{
-    position: absolute;
-    left: 25rem;
-    z-index: -1;
-    height: 30vw;
-    width: 70vw;
-    transform: translateY(-100%);
-    background-position: center;
-    background-size: 100%;
-    background-image: url(./image/pexels-pixabay-2344.jpg);
-    z-index: 2;
-    
-}
-.bg2{
-    position: absolute;
-    top: 0;
-    left: -10rem;
-    z-index: 2;
-    height: 30vw;
-    width: 70vw;
-    transform:  translateY(30%) scale(0);
-    background-position: center;
-    background-size: 100%;
-    filter: saturate(50%);
-    background-image: url(./image/pexels-una-laurencic-20967.jpg), linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
-    animation: plus 1.5s .95s forwards cubic-bezier(0.19, 1, 0.22, 1);
-    
-}
-@keyframes plus {
-    from{transform: translateX(30%) translateY(30%) scale(0);}to{transform: translateX(30%) translateY(30%) scale(1);}
-}
-h1{
-    text-align: center;
-    position: relative;
-    z-index: 3;font-size: 30vw;
-    top: 5rem;
-    mix-blend-mode: difference;
-}
-.gridbgcont{
 
-    height: 40rem;
-    width: 70rem;
-    transform: translateX(50%) translateY(-150%);
-    position: relative;
-    z-index: -1;
-}
-.gridbgcont div{
-    opacity: 0;
-    position: absolute;
-    height: 40rem;
-    width: 70rem;
-    background-position: center;
-    background-size: 100%;
-
-    transition: opacity .7s cubic-bezier(0.8,-0.25,0.2,1);
-}
-
-
-#img4{
-    background-size: 120%;
-}
-
-.presentation{
-    display: flex;
-    padding-top: 25rem;
-    padding-bottom: 15rem;
-}
-.presentation div:first-child{
-    width: 40%;
-    vertical-align: center ;
-    padding: 15%;
-    background-color: var(--seconde);
-}
-.presentation div:first-child::content{
-    background-color: gray;
-}
 button {
     background: none;
     border: none;
     color: var(--main-color);
     cursor: pointer;
 }
+@font-face { font-family: 'Kalam';src: url('./font/Kalam-Regular.ttf') format('truetype');}
 
-.presentation div:last-child{
-    width: 60%;
-    background-size: 100%;
-    background-image: url(./image/rererererererere.jpg);
-    background-position: center;
-    height: 70rem;
+h2{
+    width: 80%;
+
 }
-.paris{
-    mix-blend-mode: difference;
+.un{
+    display: flex;
+    
 }
-.loca{
-  height: 77vh;
+.lui{
+    width: 18%;
+    font-size: 6rem;
+    text-align: end;
+    color: var(--red);
+    margin-right: 4rem;
+    font-family: 'Kalam',sans-serif;
 }
-.paris h1{
-    height: 65rem;
+h2{
+    font-size: 15.5rem;
 }
-.paris h5{
+
+div:first-child{
+    margin-top: 4rem;
+}
+
+.deux{
+    width: 100%;
+  height: 20rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.arrow{
+    background-color: #383838;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
     text-align: center;
-    position: relative;
-    top: 10rem;
+    line-height: 1.75;
+    font-size: 2.5rem;
+    color: var(--seconde);
+    
 }
-.paris h4{
-    position: relative;
+.un h6{
+    margin-left: 5rem;
+    padding-top: 6rem;
+  
+}
+.luigui{
+    line-height: 10rem;
+}
+.trois{
+    background-color: rgba(255, 255, 255, 0);
+    height: 50rem;
+    display: flex;
+    margin-bottom: 20rem;
+    
+}
+
+.presentation{
+    width: 35%;
+    margin-left: 8rem;
+    transform: translateY(0rem);
+}
+.images{
+    margin-left: 30rem;
+}
+.image{
+    height: 30rem;
+    width: 40rem;
+   
+    position: absolute;
+    border-radius: 3%;
+}
+
+.image:nth-child(1){
+    z-index: 3;
+    background-color: greenyellow;
+    transform: translateX(12rem) rotate(5deg);
+}
+.image:nth-child(2){
     z-index: 2;
-    top: -4rem;
-    left: 15rem;
+    transform: translateY(1.75rem) translateX(6rem);
+    background-color: blue;
+}
+.image:nth-child(3){
+    z-index: 1;
+    background-color: orange;
+    transform: rotate(-5deg);
 }
 
-.h1:hover ~ .bg{
-    background-image: url(./gif/arc.gif);
-}
-.paris h1{
-    text-align: center;
-    position: relative;
-    z-index: 3;font-size: 38vw;
-    mix-blend-mode: difference;
-    background: transparent;
-}
-.hd{
-    position: relative;
-    top: -8rem;
-    left: 15rem;
+.lig{
+    background-color: var(--main-color);
+    height: .2rem;
+    margin-top: 15rem;
 }
 
-@media (max-width: 910px){
+.quatre{
+    margin-left: 20rem;
+    margin-top: 15rem;
+}
+.quatre h5{
+    margin-bottom: 2rem;
+}
 
+#myModelViewer{
+    height: 80rem;
+    margin-left: 15rem;
+    width: 80%;
+}
 
-    .bg{
-        position: absolute;
-        left: 25rem;
-        z-index: -1;
-        height: 30vw;
-        width: 70vw;
-        transform: translateY(-100%);
-        background-position: center;
-        background-size: 100%;
-        background-image: url(./image/pexels-pixabay-2344.jpg);
-        z-index: 2;
-        
-    }
-    .bg2{
-        position: absolute;
-        top: 10rem;
-        left: -2rem;
-        z-index: 2;
-        height: 30vw;
-        width: 70vw;
-        transform:  translateY(30%) scale(0);
-        background-position: center;
-        background-size: 100%;
-        filter: saturate(50%);
-        background-image: url(./image/pexels-una-laurencic-20967.jpg), linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.301));
-        animation: plus 1.5s .95s forwards cubic-bezier(0.19, 1, 0.22, 1);
-        
-    }
+.cinq{
+    height: 50rem;
+}
+
+.cinq div{
+    height: 50rem;
+    background: linear-gradient(90deg, var(--seconde) 0%, rgba(0,0,0,0) 100%), url(./image/rerererer.jpg);
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 10rem ;
+    margin-bottom: 10rem ;
+}
+.cinq h2{
+    height: 15rem;
+    text-shadow: 1px 1px 12px rgba(0,0,0,0.5), -1px -1px 12px rgba(0, 0, 0, 0.5);
+}
+
+.six{
+    height: 50rem;
+}
+
+.six div{
+    height: 50rem;
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, var(--seconde) 100%), url(./image/pexels-christina-morillo-1181325.jpg);
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 10rem ;
+    margin-bottom: 10rem ;
+}
+.six h2{
+    height: 15rem;
+    text-align: end;
+    text-shadow: 1px 1px 12px rgba(0,0,0,0.5), -1px -1px 12px rgba(0, 0, 0, 0.5);
+    width: 100%;
 }

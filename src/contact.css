@@ -1,21 +1,15 @@
+body{
+    overflow: hidden;
+}
 .contact{
-    height: 78vh;
+    height: 76vh;
     width: 100%;
     display: flex;
+    overflow: hidden;
 }
 
-.contact div:nth-child(1){width:60% ; }
-.contact div:nth-child(2){width: 2%;}
-.contact div:nth-child(3){width:34% ; }
-
-.contact div:nth-child(2) h6{transform: rotate(-90deg); padding: 17rem 0; } 
-.contact div:nth-child(3) h6{text-align: center;}
-
-.shanone{
-    height: 58rem;
-}
-.rec{display: flex;justify-content: space-between;width: 100%; }
-.rec
+h2{font-size: 12.75vw;margin: auto;
+line-height: 16rem;}
 
 button{
     border: none;
@@ -39,18 +33,7 @@ i{
 .gray{
     filter: brightness(50%);
 }
-.box{
-    border: double .9rem var(--main-color);
-    padding: 4%;
-    margin: 0 5%;
-    margin-top: 4.5rem;
-    width: 50%;
-}
-.box h6{
-    font-size: 2.125rem;
-    word-spacing: .6rem;
-    letter-spacing: .1rem;
-}
+
 
 i:hover{
     color: gray;
@@ -59,64 +42,6 @@ i:hover{
 
 @media only screen and (min-width: 320px) and (max-width: 780px) {
 
-    .contact{
-        height: 68vh;
-        width: 100%;
-        display: flex;
-        padding: 5%;
-    }
-
-    h2{
-        font-size: 4rem;
-    }
-    
-    .contact div:nth-child(1){width:95% ; }
-    .contact div:nth-child(2){width: 0%;}
-    .contact div:nth-child(3){width:0% ; }
-    
-    .contact div:nth-child(2) h6{transform: rotate(-90deg); padding: 17rem 0; } 
-    .contact div:nth-child(3) h6{text-align: center;}
-    
-    .shanone{
-        height: 50rem; display: none;
-    }
-    .rec{display: flex;justify-content: space-between;width: 100%;
-    margin-top: 5rem;
-margin-bottom: 7rem; }
-   
-    button{
-        border: none;
-        background: transparent;
-    }
-    
-    button i{
-        transform: scale(1);
-    }
-    
-    i{
-        transform: scale(.7);
-    }
-    .gray{
-        filter: brightness(50%);
-        display: none;
-    }
-    .box{
-        border: double .9rem var(--main-color);
-       padding:1rem 0rem 1rem .5rem;
-        margin-top: 4.5rem;
-        width: 80%;
-    }
-    .h2{
-        margin-bottom: 2rem;
-    }
-    .box h6{
-        font-size: 1.5rem;
-        word-spacing: .6rem;
-        letter-spacing: .1rem;
-    }
-    
-    i:hover{
-        color: gray;
-    }
+ 
     
 }
