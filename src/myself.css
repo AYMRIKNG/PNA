@@ -126,8 +126,8 @@ div:first-child{
     background-position: center;
     background-size: cover;
 
-    margin-top: 10rem ;
-    margin-bottom: 10rem ;
+    margin-top: 15rem ;
+    margin-bottom: 15rem ;
 }
 .cinq h2{
     height: 15rem;
@@ -144,12 +144,31 @@ div:first-child{
     background-position: center;
     background-size: cover;
 
-    margin-top: 10rem ;
-    margin-bottom: 10rem ;
+    margin-top: 15rem ;
+    margin-bottom: 15rem ;
 }
 .six h2{
     height: 15rem;
     text-align: end;
     text-shadow: 1px 1px 12px rgba(0,0,0,0.5), -1px -1px 12px rgba(0, 0, 0, 0.5);
     width: 100%;
+}
+
+.sept{
+  display: flex;
+  margin-top: 15rem;
+  justify-content: space-evenly;
+  
+}
+.septt{
+    text-align: center;
+    width: 15rem;
+}
+.septt::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    margin-top: 5rem;
+    height: .2rem;
+    width: 13rem;
 }
