@@ -57,8 +57,12 @@ table{
     margin-top: 8rem;
     margin-bottom: 5rem;
 }
-.rouge{
+.ahover{
     color: #C02C2C;
+    transition: transform 1s ease-in-out;
+}
+.rouge:hover{
+    transform: translateY(2rem);
 }
 a{
     text-decoration: none;
@@ -73,8 +77,26 @@ a{
    
 }
 .pres p{
-    width: 35rem;
+    width: 65rem;
   
+}
+
+.right::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    top: 40rem;
+    height: .2rem;
+    width: 100%;
+}
+.left::before{
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    top: 40rem;
+    height: .2rem;
+    width: 210%;
+    margin-left: -200%;
 }
 
 .pres div{
@@ -84,22 +106,24 @@ a{
 .imga{
     position: relative;
     top: -15rem;
-    left: 40rem;
+    left: 70rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(-5deg);
+    transform: rotate(0);
     background: url(../eco/Eco/3.PNG);
     background-size: contain;
     background-repeat: no-repeat;
     transition-delay: 1;
 }
+
+
 .imgb{
     position: relative;
-    top: -15rem;
+    top: -28rem;
     left: -45rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(0);
     transition-delay: 1s;
     background: url(../eco/Eco/2.PNG);
     background-size: contain;
@@ -107,11 +131,11 @@ a{
 }
 .imgc{
     position: relative;
-    top: -15rem;
-    left: 40rem;
+    top: -28rem;
+    left: 70rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(-5deg);
+    transform: rotate(0);
     background: url(../eco/Eco/mapping\ -\ liste.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -119,22 +143,22 @@ a{
 }
 .imgd{
     position: relative;
-    top: -15rem;
+    top: -28rem;
     left: -45rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(0);
     transition-delay: 1s;
     background: url(../eco/Eco/mapping\ -\ liste\ valeurs.PNG);
     background-size: contain;
     background-repeat: no-repeat;
 }.imge{
     position: relative;
-    top: -15rem;
-    left: 40rem;
+    top: -22rem;
+    left: 70rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(-5deg);
+    transform: rotate(0);
     background: url(../eco/Eco/mapping\ -\ nouveau.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -142,11 +166,11 @@ a{
 }
 .imgf{
     position: relative;
-    top: -15rem;
+    top: -25rem;
     left: -45rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(0);
     transition-delay: 1s;
     background: url(../eco/Eco/departement.PNG);
     background-size: contain;
@@ -154,10 +178,10 @@ a{
 }.imgg{
     position: relative;
     top: -15rem;
-    left: 40rem;
+    left: 70rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(-5deg);
+    transform: rotate(0);
     background: url(../eco/Eco/départements.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -169,7 +193,7 @@ a{
     left: -45rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(5deg);
+    transform: rotate(0);
     transition-delay: 1s;
     background: url(../eco/Eco/gestion\ des\ utilisateurs.PNG);
     background-size: contain;
@@ -177,10 +201,10 @@ a{
 }.imgi{
     position: relative;
     top: -15rem;
-    left: 40rem;
+    left: 70rem;
     height: 18rem;
     width: 40rem;
-    transform: rotate(-5deg);
+    transform: rotate(0);
     background: url(../eco/Eco/attribuer\ revoquer.PNG);
     background-size: contain;
     background-repeat: no-repeat;
@@ -192,7 +216,7 @@ a{
 .zoom:hover{
     position: relative;
 
-    transform: rotate(0) scale(2) translateX(-10rem);
+    transform: rotate(0) scale(2.5) translateX(-10rem);
     transition: transform 1s ;
 }
 .zoom2{
@@ -202,7 +226,7 @@ a{
     position: relative;
    
    
-    transform: rotate(0) scale(2) translateX(12rem);
+    transform: rotate(0) scale(2.5) translateX(12rem);
     transition: transform 1s ;
 }
 td:hover{
@@ -248,7 +272,7 @@ td{
 
 .left{
     text-align: end;
-    margin-left: 70%;
+    margin-left: 50%;
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 1s, transform 1s;
@@ -256,7 +280,7 @@ td{
 
 .left-visible{
     text-align: end;
-    margin-left: 70%;
+    margin-left: 50%;
     opacity: 1;
     transform: translateY(0);
 }

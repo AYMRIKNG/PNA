@@ -39,7 +39,7 @@
     
    <section>
     <h1 class="tittle">ECOREPORT</h1>
-    <p class="first">ECOREPORT est un logiciel interne à l'entreprise <a href="https://www.ecobank.com/personal-banking"  rel="noopener noreferrer"><span class="rouge">ECOBANK INTENATIONALE</span></a> codé en partie par mes soins. C'est un logiciel qui permet la gestion, l'édition et l'affichage de rapport bancaire </p>
+    <p class="first">ECOREPORT est un logiciel interne à l'entreprise <a class="ahover" href="https://www.ecobank.com/personal-banking" target="_blank"  rel="noopener noreferrer"><span class="rouge">ECOBANK INTENATIONALE</span></a> codé en partie par mes soins lors de mes Stages de 1ère et 2ème année de BTS SIO SLAM. C'est un logiciel qui permet la gestion, l'édition et l'affichage de rapport bancaire </p>
     <a ><img class="imgfirst" src="./eco/Eco/7.PNG" width="1100rem" alt="" srcset=""></a>
     <div class="pres" id="pres-container">
         <div class="right">
@@ -57,7 +57,7 @@
            </div>
         <div class="left">
             <h4>AUTORISATION</h4>
-            <p>Voici un exemple d'une valeur mise en attente d'autorisation<div class="imgd zoom2"></div></p> 
+            <p>Ici l'employer peut modifier une ligne parmi les 5 disponibles du rapport Annacredit. Une fois la modification établi la modification ce transfère dans la zone attente d'authorisation pour qu'un supérieur puisse l'autoriser.<div class="imgd zoom2"></div></p> 
            </div>
         <div class="right">
             <h4>EDITION</h4>
@@ -70,11 +70,11 @@
         </div>
         <div class="right">
             <h4>DEPARTEMENT</h4>
-            <p>Voici la liste des département <div class="imgg zoom"></div> </p> 
+            <p>Voici la liste des département ou l'on afficher le code qui est utiliser dans les requete sql ainsi que sur les rapports bancaire<div class="imgg zoom"></div> </p> 
            </div>
         <div class="left">
             <h4>UTILISATEUR</h4>
-            <p>Voici la liste des utilisateur<div class="imgh zoom2"></div></p> 
+            <p>Voici la liste des utilisateur ou l'on affiche en complément le département au quelle ils sont attribuer leur état (si leur compte est actif ou nom sur l'Active Directory) ainsi que la dernière connexion en temps réel<div class="imgh zoom2"></div></p> 
            </div>
         <div class="right">
             <h4>DROITS</h4>
@@ -84,7 +84,6 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Function to check if an element is in the viewport
             function isInViewport(element) {
                 const rect = element.getBoundingClientRect();
                 return (
@@ -95,7 +94,6 @@
                 );
             }
 
-            // Function to handle scroll events
             function handleScroll() {
                 const rightElements = document.querySelectorAll('.right');
                 const leftElements = document.querySelectorAll('.left');
