@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var $slider = $('.slides');
-    var names = ["ECOREPORT", "SERVADMIN", "GESTION DE LIGUE", "IN THE LAB"];
+    var names = ["ECOREPORT", "SERVADMIN", "GESTION DE LIGUE", "MAISON DES LIGUES","SOON"];
     $('.slides').slick({
       infinite: true,
       slidesToShow: 3,
@@ -11,9 +11,9 @@ $(document).ready(function(){
       cssEase: 'cubic-bezier(.94,-0.03,.57,.97)',
     });
     $('#slide-name').text(names[$slider.slick('slickCurrentSlide')]);
-    $('#slide-index').text($slider.slick('slickCurrentSlide') + 1+" / 4");
+    $('#slide-index').text($slider.slick('slickCurrentSlide') + 1+" / 5");
     $slider.on('afterChange', function(event, slick, currentSlide){
-        $('#slide-index').text(currentSlide + 1+" / 4");
+        $('#slide-index').text(currentSlide + 1+" / 5");
         $('#slide-name').text(names[currentSlide]);
       });
     $('#prev-btn, #next-btn').on('click', function() {

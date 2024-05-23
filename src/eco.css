@@ -72,7 +72,7 @@ a{
     margin: 0% 10%;
 }
 .pres h4{
-    width: 35rem;
+    width: 65rem;
 
    
 }
@@ -81,23 +81,7 @@ a{
   
 }
 
-.right::before{
-    content: "";
-    position: absolute;
-    background-color: var(--main-color);
-    top: 40rem;
-    height: .2rem;
-    width: 100%;
-}
-.left::before{
-    content: "";
-    position: absolute;
-    background-color: var(--main-color);
-    top: 40rem;
-    height: .2rem;
-    width: 210%;
-    margin-left: -200%;
-}
+
 
 .pres div{
 
@@ -216,7 +200,7 @@ a{
 .zoom:hover{
     position: relative;
 
-    transform: rotate(0) scale(2.5) translateX(-10rem);
+    transform: rotate(0) scale(2.9) translateX(-10rem);
     transition: transform 1s ;
 }
 .zoom2{
@@ -226,7 +210,7 @@ a{
     position: relative;
    
    
-    transform: rotate(0) scale(2.5) translateX(12rem);
+    transform: rotate(0) scale(2.9) translateX(12rem);
     transition: transform 1s ;
 }
 td:hover{

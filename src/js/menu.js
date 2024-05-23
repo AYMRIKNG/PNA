@@ -2,6 +2,7 @@ document.querySelector('.underline').addEventListener('click', function() {
     var menu = document.querySelector('.menu');
     var liMenu = document.querySelector('.underline');
     var h3Elements = document.querySelectorAll('.menu div h3');
+    
     var liElements = document.querySelectorAll('nav ul li:nth-child(1)::before');
     var lidElements = document.querySelectorAll('nav ul li:nth-child(2)::before');
     if(menu.classList.contains('active')) {

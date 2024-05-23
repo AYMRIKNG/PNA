@@ -70,36 +70,56 @@ div:first-child{
     transform: translateY(0rem);
 }
 .images{
-    margin-left: 30rem;
+    margin-left: 25rem;
+    height: 25rem;
+    width: 50rem;
+    position: relative;
+    z-index: 4;
 }
 .image{
     height: 30rem;
     width: 40rem;
-   
+    transition: transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1), color 1s cubic-bezier(0.165, 0.84, 0.44, 1);
     position: absolute;
     border-radius: 3%;
+    color: transparent;
 }
 
 .image:nth-child(1){
     z-index: 3;
-    background-color: greenyellow;
+    background: url(./image/pexels-wopke-41433.jpg) ;
+    background-position: center;
+    background-size: cover;
     transform: translateX(12rem) rotate(5deg);
+}
+.images:hover .image{
+    color: var(--main-color);
+}
+.images:hover .image:nth-child(1) {
+    transform: translateX(30rem) rotate(10deg) translateY(2rem); 
 }
 .image:nth-child(2){
     z-index: 2;
-    transform: translateY(1.75rem) translateX(6rem);
-    background-color: blue;
+    transform: translateY(1.75rem) translateX(6rem) ;
+    background: url(./image/pexels-tibor-szabo-13756521.jpg) ;
+    background-position: center;
+    background-size: cover;
 }
 .image:nth-child(3){
     z-index: 1;
-    background-color: orange;
+    background: url(./image/pexels-una-laurencic-20967.jpg) ;
+    background-position: center;
+    background-size: cover;
     transform: rotate(-5deg);
+}
+.images:hover .image:nth-child(3) {
+    transform: translateX(-20rem) rotate(-10deg) translateY(4rem); 
 }
 
 .lig{
     background-color: var(--main-color);
     height: .2rem;
-    margin-top: 15rem;
+    margin-top: 12rem;
 }
 
 .quatre{
@@ -107,6 +127,9 @@ div:first-child{
     margin-top: 15rem;
 }
 .quatre h5{
+    margin-bottom: 2rem;
+}
+.quatre h4{
     margin-bottom: 2rem;
 }
 
@@ -152,23 +175,4 @@ div:first-child{
     text-align: end;
     text-shadow: 1px 1px 12px rgba(0,0,0,0.5), -1px -1px 12px rgba(0, 0, 0, 0.5);
     width: 100%;
-}
-
-.sept{
-  display: flex;
-  margin-top: 15rem;
-  justify-content: space-evenly;
-  
-}
-.septt{
-    text-align: center;
-    width: 15rem;
-}
-.septt::before{
-    content: '';
-    position: absolute;
-    background-color: white;
-    margin-top: 5rem;
-    height: .2rem;
-    width: 13rem;
 }

@@ -51,11 +51,11 @@ table{
     margin: 0% 10%;
 }
 .pres h4{
-    width: 35rem;
+    width: 45rem;
    
 }
 .pres p{
-    width: 35rem;
+    width: 45rem;
   
 }
 
@@ -65,51 +65,51 @@ table{
 
 .imga{
     position: relative;
-    top: -26rem;
+    top: -32rem;
     left: 60rem;
     height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg) scale(2);
+    transform: rotate(0deg) scale(2);
     background: url(./image/pic08.png);
     transition-delay: 1; background-size: 100%;
 }
 .imgc{
     position: relative;
-    top: -26rem;
+    top: -32rem;
     left: 60rem;
     height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg) scale(2);
+    transform: rotate(0deg) scale(2);
     background: url(./image/pic08.png);
     transition-delay: 1; background-size: 100%;
 }
 .imge{
     position: relative;
-    top: -26rem;
+    top: -32rem;
     left: 60rem;
     height: 15rem;
     width: 40rem;
-    transform: rotate(-5deg) scale(2);
+    transform: rotate(0deg) scale(2);
     background: url(./image/pic06.png);  
     transition-delay: 1; background-size: 100%;
 }
 .imgb{
     position: relative;
-    top: -26rem;
+    top: -32rem;
     left: -60rem;
     height: 15rem;
     width: 40rem;
-    transform: rotate(5deg) scale(2);
+    transform: rotate(0deg) scale(2);
     transition-delay: 1s;
     background: url(./image/pic09.png); background-size: 100%;
 }
 .imgd{
     position: relative;
-    top: -26rem;
+    top: -32rem;
     left: -60rem;
     height: 15rem;
     width: 40rem;
-    transform: rotate(5deg) scale(2);
+    transform: rotate(0deg) scale(2);
     transition-delay: 1s;
     background-size: 100%;
     background: url(./image/pic05.png);
@@ -219,7 +219,7 @@ td{
         left: -4.25rem;
         height: 15rem;
         width: 40rem;
-        transform: rotate(-5deg) scale(1.25);
+        transform: rotate(0deg) scale(1.25);
         background: url(./image/pic08.png);
         transition-delay: 1; background-size: 100%;
     }
@@ -229,7 +229,7 @@ td{
         left: -4.25rem;
         height: 15rem;
         width: 40rem;
-        transform: rotate(-5deg) scale(1.25);
+        transform: rotate(0deg) scale(1.25);
         background: url(./image/pic08.png);
         transition-delay: 1; background-size: 100%;
     }
@@ -239,7 +239,7 @@ td{
         left: -4.25rem;
         height: 15rem;
         width: 40rem;
-        transform: rotate(-5deg) scale(1.25);
+        transform: rotate(0deg) scale(1.25);
         background: url(./image/pic06.png);  
         transition-delay: 1; background-size: 100%;
     }
