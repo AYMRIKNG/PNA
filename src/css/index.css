@@ -1,0 +1,211 @@
+
+.tittle{
+    padding-top: 12%;
+    margin-bottom: 4%;
+}
+
+.car{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+  
+  
+}
+.car,.n{
+    padding-left: 10%;
+    
+}
+.car h5{
+    animation: car 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+   
+}
+
+@keyframes car {
+    0%{
+        transform:translateY(0rem);
+    }
+    10%{
+        transform:translateY(-2.5rem);
+    }
+    50%{
+        transform:translateY(-2.5rem);
+    }
+    60%{
+        transform:translateY(0rem);
+    }
+    100%{
+        transform:translateY(0rem);
+    }
+ 
+}
+
+.ifirst{
+    height: 40rem;
+    width: 30rem;
+    object-fit: cover;
+}
+.un{padding-left: 10%; transform: translateY(-9rem);}
+.deux{
+    padding-left:16%;
+    transform: translateY(-15rem);
+}
+
+.head p{
+    position: sticky;
+    z-index: 5;
+    margin-top: 6rem;
+    top: 16rem;
+    text-align: center;
+    mix-blend-mode: difference;
+    color: white;
+  
+}
+
+.about{
+    padding-left: 10%;
+}
+
+
+.about p{
+    padding-left: 20%;
+}
+
+.xp{
+
+}
+.svg{
+    height: 6rem;
+    width: 6rem;
+    margin: 0;
+    padding: 0;
+    transform: translateY(.2rem) rotate(90deg);
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding: 0% 2%;
+}
+.cadre{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    padding:7.5%;
+    margin: 0
+}
+
+.work h5,.about h5{
+    display: flex;
+    justify-content: end;
+    transform: translateY(-5rem);
+}
+.about h5{
+    transform: translate(0);
+}
+
+.cadre img{
+    width: 38rem;
+}
+
+.coord h4{
+ padding-left: 10%;
+ padding-top: 8%;
+ margin-bottom: 3rem;
+}
+
+.no{
+    width: 39%;padding-left: 10%;
+    margin-bottom: 4rem;
+}
+.end{
+    text-align: end;
+}
+.bot{
+    font-size: 18.2rem;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+    letter-spacing: -1rem;
+}
+
+.line h5{
+    
+}
+.oui{
+    padding-left: 10%;
+    width: 47%;
+    font-size: 1em !important;
+}
+.oui h5{
+    width: 12rem;
+}
+.active{
+    background-color: var(--black);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 100vh;
+    border-radius: 0%;
+}
+
+.desactive{
+    background-color: transparent;
+    position:fixed;
+    top: 2.31rem;
+    left: 79.2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.moon{
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.contmenu{
+    position: relative;
+     z-index: 25;
+    color: var(--white);
+    display: none;
+    padding-top: 12%;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.desactive .contmenu {
+    display: none;
+}
+
+.active .contmenu {
+    display: flex;
+}
+.contmenu{
+    
+}
+.opl{
+    padding-left: 12%;
+    vertical-align: top;
+}
+.plus{
+    margin-left: 10%;
+}
+.opl h4{
+    margin-top: 0 !important;
+    margin-bottom: 6rem;
+}
+.mail{
+    margin-bottom: 9.95rem;
+}
+.opl h5{
+    padding-bottom: 1rem;
+}
+h5:hover .au {
+    transform: rotate(90deg);
+  
+}
+.au{
+    transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
