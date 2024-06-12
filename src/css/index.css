@@ -16,7 +16,7 @@
     
 }
 .car h5{
-    animation: car 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+    animation: car 3s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
    
 }
 
@@ -79,6 +79,11 @@
     margin: 0;
     padding: 0;
     transform: translateY(.2rem) rotate(90deg);
+    animation: rotate 5s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.flexbox{
+    display: flex;
+    padding: 10% 0;
 }
 .line{
     display: flex;
@@ -95,39 +100,79 @@
     margin: 0
 }
 
-.work h5,.about h5{
+.work h5,.xp h5,.std h5{
     display: flex;
     justify-content: end;
     transform: translateY(-5rem);
 }
 .about h5{
     transform: translate(0);
+    margin-top: 5rem;
+}
+.std{
+    margin-top: -10rem;
+}
+.xp h5{
+    margin-top: 10rem;
+}
+.std h5{
+    margin-top: 5rem;
 }
 
+.duo{
+    display: flex;
+    padding: 0 20%;
+    margin-top: 2rem;
+    position: relative;
+}
+.duo img{
+    width: 60rem;
+    height: 30rem;
+    object-fit: cover;
+    position: relative;
+}
+.duo::before{
+    content: 'ECOBANK 6 MONTH';
+    position: absolute;
+    top: 0;
+    left: 10rem;
+    width: 30rem; /* Largeur du bloc rouge */
+    font-size: 2rem;
+    z-index: 2;
+    height: 3rem; /* Hauteur du bloc rouge */
+    padding-left: 2rem;
+    background-color: rgb(0, 0, 0); 
+    color: var(--swhite);
+}
 .cadre img{
     width: 38rem;
 }
 
 .coord h4{
  padding-left: 10%;
- padding-top: 8%;
  margin-bottom: 3rem;
+ margin-top: 9%;
+}
+.coord{
+    padding-left: 5rem;
 }
 
 .no{
-    width: 39%;padding-left: 10%;
+    width: 75%;padding-left: 10%;
     margin-bottom: 4rem;
 }
 .end{
     text-align: end;
 }
 .bot{
-    font-size: 18.2rem;
+    font-size: 19rem;
     font-weight: 1000;
+    
     margin: 0;
     padding: 0;
-    height: 10rem;
-    letter-spacing: -1rem;
+    height: 20rem;background-color: rgba(22, 81, 231, 0);
+    letter-spacing: -1.5rem;
+    
 }
 
 .line h5{
@@ -139,30 +184,32 @@
     font-size: 1em !important;
 }
 .oui h5{
-    width: 12rem;
+    width: 16.5rem;
+
 }
+
 .active{
     background-color: var(--black);
     position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    top: -50%;
+    left: -25%;
+    width: 150rem;
     z-index: 10;
-    height: 100vh;
-    border-radius: 0%;
+    height: 150rem;
+    border-radius: 100%;
 }
 
 .desactive{
-    background-color: transparent;
+    background-color: var(--black);
     position:fixed;
-    top: 2.31rem;
-    left: 79.2rem;
+    top: -10rem;
+    left: 100rem;
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
 }
 .moon{
-    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: all 2s cubic-bezier(0.77, 0, 0.175, 1);
 
 }
 .contmenu{
@@ -183,13 +230,17 @@
     display: flex;
 }
 .contmenu{
-    
+    padding-left: 25%;
+    padding-top: 23%;
 }
 .opl{
-    padding-left: 12%;
+    
     vertical-align: top;
 }
 .plus{
+    padding-left: 10%;
+}
+.plu{
     margin-left: 10%;
 }
 .opl h4{
@@ -198,6 +249,8 @@
 }
 .mail{
     margin-bottom: 9.95rem;
+    font-size: 1.5rem;
+    transform: translateY(.75rem);
 }
 .opl h5{
     padding-bottom: 1rem;
@@ -209,3 +262,287 @@ h5:hover .au {
 .au{
     transition: transform 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.up{
+    display: flex;
+    margin-top: 3rem;
+}
+.opl h4:hover{
+    color: var(--silver);
+    cursor: pointer;
+}
+
+@keyframes up {
+    from{
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
+.vin{
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.vin img{
+    width: 35rem;
+    height: 33rem;
+}
+.ger{
+    background-color: rgb(0, 0, 0);
+    height: 20rem;
+    padding: 0;
+    display:flex;
+    margin: 0;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+    width: 120%;
+    transform: translateX(-11rem);
+}
+.ger h5{
+ color: white;
+ text-align: center;width: 10rem;justify-content: none !important;
+ transform: translateX(-3.5rem) translateY(-3.75rem);
+}
+.ger img{
+    width: 3rem;height: 3rem;
+    margin-top: 6rem;
+}
+
+.fer{
+    width: 50rem !important;
+    padding-left: 0% !important;
+}
+
+.anime{
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0);
+    height: 31rem;
+    width: 101%;
+    top: -1rem;
+    left: -1rem;
+    padding-top: 18%;
+    animation: anim 1s 2.6s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+
+}
+.anime h1{
+    color: white;
+    font-weight: 1000;
+    font-size: 8rem;
+    position: relative;
+    z-index: 101;
+    animation: animo 1.5s forwards cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.case div{
+    background-color: rgb(0, 0, 0);
+    height: 52rem;
+    transform: translateY(-32rem);
+    width: 20%;
+    
+    gap: 0%;
+}
+.case{
+    display: flex;
+    width: 100%;
+}
+.case div:nth-child(1){
+ animation: anim 1s 1s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+}
+.case div:nth-child(2){
+ animation: anim 1s 1.25s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+}
+.case div:nth-child(3){
+ animation: anim 1s 1.5s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+}
+.case div:nth-child(4){
+ animation: anim 1s 1.75s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+}
+.case div:nth-child(5){
+ animation: anim 1s 2s forwards cubic-bezier(0, 0.045, 0.355, 1) ;
+}
+
+@keyframes anim {
+    from{
+        transform: translateY(-31rem);
+    }
+    to{
+        transform: translateY(-85rem);
+    }
+}
+@keyframes animo {
+    0%{
+        transform: translateY(0rem);
+    }
+    70%{
+        transform: translateY(0rem);
+    }
+    to{
+        transform: translateY(-31rem);
+    }
+}
+
+
+
+
+@keyframes fesh {
+    0%{
+        opacity: 0;
+
+    }
+
+    10%{
+        opacity: 1;
+
+    }
+    90%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+
+    }
+    
+}
+
+
+
+
+
+
+
+.work h2{
+    margin-bottom: 10%;
+}
+details {    
+    border-top: 2px #dfdfdf solid;
+    padding: 2em 3em 0;
+  }
+details:last-of-type{
+    border-bottom: 2px #dfdfdf solid;
+    margin-bottom: 10%;
+}
+  
+  summary {
+    background-color: var(--swhite);
+    font-weight: bold;
+    font-size: 3rem;
+    margin: -.67em -1em 0;
+    padding: 0.5em;
+    transition: background-color 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  
+  details[open] {
+    padding: 2em 3em 0;
+  }
+  
+  details[open] summary {
+    background-color: black;
+    color: white;
+    margin-bottom: 0.5em;
+  }
+  
+  summary span{
+    width: 32%;
+    display: INLINE-FLEX;
+  }
+  details legend{
+    padding-left: 5%;
+  }
+  details p{
+    margin-left: 15%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  summary:hover{
+    background-color: black;
+    color: white;
+  }
+  .work a,.xp a,.about a{
+    color: inherit;
+  }
+
+  .affich{
+   
+    
+    height: 30rem; 
+   margin-bottom: 25rem;
+   position: relative;
+    left: 35%;
+   
+    z-index: 5;
+
+  }
+  .affich::before{
+    
+    font-size: 1.5rem;
+    position: absolute;
+    background-color: var(--swhite);
+    height: 2.5rem;
+    width: 10rem;
+  }
+  .affich:nth-of-type(1)::before{
+    content: 'ECOREPORT';
+  }
+  .affich:nth-of-type(2)::before{
+    content: 'G2L';
+  }
+  .affich:nth-of-type(3)::before{
+    content: 'M2L';
+  }
+  .ouga{
+    
+    
+  }
+  .pm{
+   
+    position: sticky;
+    top: 2rem;
+    left: 0rem;
+    z-index: 3;
+    height: 40rem;
+
+  }
+  .affich:nth-of-type(1){
+    background: url(../image/Ecobank.jpg);     position: sticky; background-position: center;
+    background-size: cover;box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
+    top: 8rem;width: 25rem;
+  }
+  .affich:nth-of-type(2){
+    background: url(../image/Rectangle\ 7.png);   position: sticky; background-position: center;
+    background-size: cover;
+    top: 10rem;
+    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
+    transform: translateX(-1rem);
+    width: 27rem;
+  }
+  .affich:nth-of-type(3){
+    background: url(../image/sport.jpg);  background-position: center;box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
+    background-size: cover;
+    top: 12rem;     position: sticky;transform: translateX(-2rem);
+    z-index: 6;
+    width: 29rem;
+  }
+  .work h5{
+    position: sticky;
+    background-color: rgba(128, 0, 128, 0);
+    top: 30rem;
+  }
+
+  .be{
+
+    background-color: var(--swhite) !important;
+    color: black !important;
+    margin-top: -2rem;
+    fill:black  !important;
+    
+  }
+  .be a{
+    mix-blend-mode: difference;
+  }
