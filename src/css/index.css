@@ -578,12 +578,12 @@ details:last-of-type{
   }
 
   .mol:nth-child(2){
-    transform: scale(0.95); 
+    transform: scale(0.9); 
     opacity: 0.5; 
     animation: tourne1 44s linear infinite;  
   }
   .mol:nth-child(3){
-    transform: scale(0.9) ; 
+    transform: scale(0.8) ; 
     opacity: 0.1;      animation: tourne2 48s linear infinite;  
   }
 
@@ -597,13 +597,13 @@ details:last-of-type{
  }
 
  @keyframes tourne1 {
-    from{transform: rotate(0deg) scale(0.95);}
-    to{transform: rotate(360deg) scale(0.95);}
+    from{transform: rotate(0deg) scale(0.9);}
+    to{transform: rotate(360deg) scale(0.9);}
  }
 
  @keyframes tourne2 {
-    from{transform: rotate(0deg) scale(0.9);}
-    to{transform: rotate(360deg) scale(0.9);}
+    from{transform: rotate(0deg) scale(0.8);}
+    to{transform: rotate(360deg) scale(0.8);}
  }
 
  @font-face {
@@ -636,6 +636,7 @@ details:last-of-type{
  }
  .middle{
     text-align: center;
+    transform: translateX(-5rem);
  }
  .timg {
     width: 100%;
