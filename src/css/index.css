@@ -636,6 +636,9 @@ details:last-of-type{
  }
  .middle{
     text-align: center;
+   
+ }
+ .tr {
     transform: translateX(-5rem);
  }
  .timg {
