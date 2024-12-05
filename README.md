@@ -2,20 +2,10 @@
 
 ## 🌐 Visitez Mon Portfolio
 
-Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://lsdora.github.io/PNA/). 🚀
+Découvrez davantage sur moi et mes travaux en visitant [mon portfolio](https://AYMRIKNG.github.io/PNA/). 🚀
 
 N'hésitez pas à explorer, interagir et me donner vos commentaires. Merci de visiter !
 
-## Acceul / Work
-![Acceuil](./src/image/Frame%206.png)
-## Competence
-![competence](./src/image/Frame%207.png
-## Generic Page
-![Generique page : Veille / work ...](./src/image/generic%20(1).png)
-##
-![Contact](lien_vers_une_image/banner.jpg)
-![CHARTE GRAPHIQUE](./Group%2038.png)
-![CHARTE TYPOGRAPHIQUE](./Group%2037.png)
 
 ## 🌟 Présentation
 
