@@ -81,10 +81,65 @@
     transform: translateY(.2rem) rotate(90deg);
     animation: rotate 5s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.flexbox{
-    display: flex;
-    padding: 10% 0;
+
+/* grid 1 */
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
 }
+.parent div{
+   background-size: cover;
+   background-position: center;
+   height: 20rem;
+   border-radius: 16px;
+   filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.123));
+}    
+.div1 {
+    grid-column: span 2 / span 2; background-image: url(../image/ecoreport.png);
+    background-size: 125% !important;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 3; background-image: url(../image/Group\ 8.png);
+}
+
+.div3 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    background-image: url(../image/serveur.jpg);
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-size: 135% !important;
+    background-image: url(../image/ayng.png);
+}
+
+.div5 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    height: auto !important; background-color: cornflowerblue;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    height: auto !important; 
+    background-image: url(../image/pol.png);
+}
+
+
+
 .line{
     display: flex;
     justify-content: space-between;
@@ -483,75 +538,6 @@ details:last-of-type{
     color: inherit;
   }
 
-  .affich{
-   
-    
-    height: 30rem; 
-    margin-top: 5rem;
-   margin-bottom: 25rem;
-   position: relative;
-     top: 15rem;
-   
-    z-index: 5;
-
-  }
-  .affich::before{
-    
-    font-size: 1.5rem;
-    position: absolute;
-    background-color: var(--swhite);
-    height: 2.5rem;
-    width: 10rem;
-  }
-  .affich:nth-of-type(1)::before{
-    content: 'ECOREPORT';
-  }
-  .affich:nth-of-type(2)::before{
-    content: 'G2L';
-  }
-  .affich:nth-of-type(3)::before{
-    content: 'M2L';
-  }
-  .ouga{
-    
-    
-  }
-  .pm{
-   
-    position: sticky;
-    top: 2rem;
-    left: 0rem;
-    z-index: 3;
-    height: 40rem;
-
-  }
-  .affich:nth-of-type(1){
-    background: url(../image/Ecobank.jpg);     position: sticky; background-position: center;
-    background-size: cover;box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
-    width: 25rem;
-    left: 5%;
-  }
-  .affich:nth-of-type(2){
-    background: url(../image/Rectangle\ 7.png);   position: sticky; background-position: center;
-    background-size: cover;
-        
-    box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
-    left: 35%;
-    width: 25rem;
-  }
-  .affich:nth-of-type(3){
-    background: url(../image/sport.jpg);  background-position: center;box-shadow: 0px -10px 15px rgba(0, 0, 0, 0.108);
-    background-size: cover;
-             position: sticky;
-    z-index: 6;
-    width: 25rem;
-    left: 65%;
-  }
-  .work h5{
-    position: sticky;
-    background-color: rgba(128, 0, 128, 0);
-    top: 30rem;
-  }
 
   .be{
 
